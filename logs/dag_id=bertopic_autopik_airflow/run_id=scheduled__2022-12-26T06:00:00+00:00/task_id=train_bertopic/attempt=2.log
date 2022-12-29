@@ -1,0 +1,10 @@
+[2022-12-26T08:01:59.815+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-26T06:00:00+00:00 [success]> on host c4b524c24ec1
+[2022-12-26T08:01:59.943+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=train_bertopic
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-26T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-26T06:00:00+00:00
+[2022-12-26T08:02:01.266+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.

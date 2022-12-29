@@ -1,0 +1,154 @@
+[2022-12-09T07:54:26.324+0000] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:26.325+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:54:26.327+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:26.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:28.178+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:28.175+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:54:28.179+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:28.206+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 1.887 seconds
+[2022-12-09T07:54:59.107+0000] {processor.py:153} INFO - Started process (PID=57) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:59.118+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:54:59.119+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:59.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:59.606+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:59.604+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:54:59.606+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:54:59.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.536 seconds
+[2022-12-09T07:55:30.117+0000] {processor.py:153} INFO - Started process (PID=64) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:55:30.127+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:55:30.127+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:55:30.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:55:30.603+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:55:30.602+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:55:30.603+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:55:30.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.513 seconds
+[2022-12-09T07:56:01.346+0000] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:01.348+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:56:01.349+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:01.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:01.824+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:01.823+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:56:01.825+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:01.855+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.513 seconds
+[2022-12-09T07:56:31.924+0000] {processor.py:153} INFO - Started process (PID=77) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:31.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:56:31.935+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:31.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:32.363+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:32.362+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:56:32.364+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:56:32.391+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.471 seconds
+[2022-12-09T07:57:02.622+0000] {processor.py:153} INFO - Started process (PID=84) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:02.632+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:57:02.633+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:02.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:03.199+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:03.197+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:57:03.199+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:03.243+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.625 seconds
+[2022-12-09T07:57:33.647+0000] {processor.py:153} INFO - Started process (PID=91) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:33.648+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:57:33.649+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:33.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:34.194+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:34.191+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:57:34.195+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:57:34.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.588 seconds
+[2022-12-09T07:58:04.431+0000] {processor.py:153} INFO - Started process (PID=98) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:04.442+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:58:04.444+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:04.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:05.085+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:05.084+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:58:05.086+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:05.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.696 seconds
+[2022-12-09T07:58:35.946+0000] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:35.947+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:58:35.948+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:35.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:36.541+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:36.539+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:58:36.541+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:58:36.571+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.629 seconds
+[2022-12-09T07:59:06.852+0000] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:06.853+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:59:06.853+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:06.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:07.364+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:07.362+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:59:07.364+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:07.394+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.546 seconds
+[2022-12-09T07:59:38.108+0000] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:38.109+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-09T07:59:38.109+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:38.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:38.641+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:38.639+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:59:38.641+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-09T07:59:38.679+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 0.575 seconds

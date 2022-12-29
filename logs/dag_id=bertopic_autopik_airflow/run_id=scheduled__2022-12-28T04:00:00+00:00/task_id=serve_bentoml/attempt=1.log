@@ -1,0 +1,73 @@
+[2022-12-28T06:42:32.450+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T04:00:00+00:00 [queued]>
+[2022-12-28T06:42:32.474+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T04:00:00+00:00 [queued]>
+[2022-12-28T06:42:32.474+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T06:42:32.474+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T06:42:32.475+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T06:42:32.498+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): serve_bentoml> on 2022-12-28 04:00:00+00:00
+[2022-12-28T06:42:32.508+0000] {standard_task_runner.py:54} INFO - Started process 340 to run task
+[2022-12-28T06:42:32.514+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'serve_bentoml', 'scheduled__2022-12-28T04:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmp4ry90opg']
+[2022-12-28T06:42:32.516+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask serve_bentoml
+[2022-12-28T06:42:32.518+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T06:42:45.535+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T06:42:45.633+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T04:00:00+00:00 [running]> on host 1bb2d79d4907
+[2022-12-28T06:42:45.755+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=serve_bentoml
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T04:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T04:00:00+00:00
+[2022-12-28T06:42:45.756+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28T06:42:45.756+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            fuser -k 7171/tcp; bentoml serve -p 7171 bertopic_autopik_bento:latest --production\n        ']
+[2022-12-28T06:42:45.794+0000] {subprocess.py:86} INFO - Output:
+[2022-12-28T06:43:14.941+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:14+0000 [INFO] [cli] Environ for worker 0: set CUDA_VISIBLE_DEVICES to 0
+[2022-12-28T06:43:14.965+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:14+0000 [INFO] [cli] Prometheus metrics for HTTP BentoServer from "bertopic_autopik_bento:latest" can be accessed at http://localhost:7171/metrics.
+[2022-12-28T06:43:16.530+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:16+0000 [ERROR] [cli] Exception in callback <bound method Arbiter.manage_watchers of <circus.arbiter.Arbiter object at 0x7fd336888760>>
+[2022-12-28T06:43:16.531+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T06:43:16.532+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1126, in _run
+[2022-12-28T06:43:16.532+0000] {subprocess.py:93} INFO -     val = self.callback()
+[2022-12-28T06:43:16.533+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1038, in wrapper
+[2022-12-28T06:43:16.533+0000] {subprocess.py:93} INFO -     raise ConflictError("arbiter is already running %s command"
+[2022-12-28T06:43:16.534+0000] {subprocess.py:93} INFO - circus.exc.ConflictError: arbiter is already running arbiter_start_watchers command
+[2022-12-28T06:43:17.466+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:17+0000 [ERROR] [cli] Exception in callback <bound method Arbiter.manage_watchers of <circus.arbiter.Arbiter object at 0x7fd336888760>>
+[2022-12-28T06:43:17.467+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T06:43:17.467+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1126, in _run
+[2022-12-28T06:43:17.467+0000] {subprocess.py:93} INFO -     val = self.callback()
+[2022-12-28T06:43:17.468+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1038, in wrapper
+[2022-12-28T06:43:17.468+0000] {subprocess.py:93} INFO -     raise ConflictError("arbiter is already running %s command"
+[2022-12-28T06:43:17.468+0000] {subprocess.py:93} INFO - circus.exc.ConflictError: arbiter is already running arbiter_start_watchers command
+[2022-12-28T06:43:18.552+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:18+0000 [ERROR] [cli] Exception in callback <bound method Arbiter.manage_watchers of <circus.arbiter.Arbiter object at 0x7fd336888760>>
+[2022-12-28T06:43:18.553+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T06:43:18.554+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1126, in _run
+[2022-12-28T06:43:18.554+0000] {subprocess.py:93} INFO -     val = self.callback()
+[2022-12-28T06:43:18.554+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1038, in wrapper
+[2022-12-28T06:43:18.554+0000] {subprocess.py:93} INFO -     raise ConflictError("arbiter is already running %s command"
+[2022-12-28T06:43:18.555+0000] {subprocess.py:93} INFO - circus.exc.ConflictError: arbiter is already running arbiter_start_watchers command
+[2022-12-28T06:43:18.826+0000] {subprocess.py:93} INFO - 2022-12-28T06:43:18+0000 [INFO] [cli] Starting production HTTP BentoServer from "bertopic_autopik_bento:latest" listening on http://0.0.0.0:7171 (Press CTRL+C to quit)
+[2022-12-28T06:45:02.255+0000] {subprocess.py:93} INFO - /bin/bash: line 2:   363 Killed                  bentoml serve -p 7171 bertopic_autopik_bento:latest --production
+[2022-12-28T06:45:23.074+0000] {local_task_job.py:87} ERROR - Received SIGTERM. Terminating subprocesses
+[2022-12-28T06:45:23.149+0000] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 340. PIDs of all processes in the group: [361, 340]
+[2022-12-28T06:45:23.152+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 340
+[2022-12-28T06:45:23.156+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-12-28T06:45:23.160+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2022-12-28T06:45:23.833+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 187, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b''):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-12-28T06:45:23.978+0000] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=bertopic_autopik_***, task_id=serve_bentoml, execution_date=20221228T040000, start_date=20221228T064232, end_date=20221228T064523
+[2022-12-28T06:45:24.898+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 8 for task serve_bentoml (Task received SIGTERM signal; 340)
+[2022-12-28T06:45:25.074+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=340, status='terminated', exitcode=1, started='06:42:31') (340) terminated with exit code 1
+[2022-12-28T06:45:25.078+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=361, status='terminated', started='06:42:45') (361) terminated with exit code None
+[2022-12-28T06:45:25.080+0000] {local_task_job.py:164} INFO - Task exited with return code 143
+[2022-12-28T06:45:25.208+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,617 @@
+[2022-12-28T01:35:04.551+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml manual__2022-12-28T01:26:02.391997+00:00 [queued]>
+[2022-12-28T01:35:04.565+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml manual__2022-12-28T01:26:02.391997+00:00 [queued]>
+[2022-12-28T01:35:04.565+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T01:35:04.565+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T01:35:04.565+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T01:35:04.583+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): serve_bentoml> on 2022-12-28 01:26:02.391997+00:00
+[2022-12-28T01:35:04.588+0000] {standard_task_runner.py:54} INFO - Started process 637 to run task
+[2022-12-28T01:35:04.592+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'serve_bentoml', 'manual__2022-12-28T01:26:02.391997+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpnugofvz1']
+[2022-12-28T01:35:04.593+0000] {standard_task_runner.py:83} INFO - Job 15: Subtask serve_bentoml
+[2022-12-28T01:35:04.594+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T01:35:16.339+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T01:35:16.405+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.serve_bentoml manual__2022-12-28T01:26:02.391997+00:00 [running]> on host 55bf7dd50294
+[2022-12-28T01:35:16.490+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=serve_bentoml
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T01:26:02.391997+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-28T01:26:02.391997+00:00
+[2022-12-28T01:35:16.491+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28T01:35:16.491+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            fuser -k 7171/tcp; bentoml serve -p 7171 bertopic_autopik_bento:latest --production\n        ']
+[2022-12-28T01:35:16.524+0000] {subprocess.py:86} INFO - Output:
+[2022-12-28T01:35:44.031+0000] {subprocess.py:93} INFO - 2022-12-28T01:35:43+0000 [INFO] [cli] Environ for worker 0: set CUDA_VISIBLE_DEVICES to 0
+[2022-12-28T01:35:44.042+0000] {subprocess.py:93} INFO - 2022-12-28T01:35:44+0000 [INFO] [cli] Prometheus metrics for HTTP BentoServer from "bertopic_autopik_bento:latest" can be accessed at http://localhost:7171/metrics.
+[2022-12-28T01:35:45.481+0000] {subprocess.py:93} INFO - 2022-12-28T01:35:45+0000 [ERROR] [cli] Exception in callback <bound method Arbiter.manage_watchers of <circus.arbiter.Arbiter object at 0x7fa2b58d7940>>
+[2022-12-28T01:35:45.482+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:35:45.482+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1126, in _run
+[2022-12-28T01:35:45.482+0000] {subprocess.py:93} INFO -     val = self.callback()
+[2022-12-28T01:35:45.483+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1038, in wrapper
+[2022-12-28T01:35:45.483+0000] {subprocess.py:93} INFO -     raise ConflictError("arbiter is already running %s command"
+[2022-12-28T01:35:45.483+0000] {subprocess.py:93} INFO - circus.exc.ConflictError: arbiter is already running arbiter_start_watchers command
+[2022-12-28T01:35:46.273+0000] {subprocess.py:93} INFO - 2022-12-28T01:35:46+0000 [INFO] [cli] Starting production HTTP BentoServer from "bertopic_autopik_bento:latest" listening on http://0.0.0.0:7171 (Press CTRL+C to quit)
+[2022-12-28T01:36:21.287+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:36:21.301+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:36:21.301+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:36:21.301+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'bertopic_autopik_bento'
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:36:21.302+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 359, in load
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:36:21.303+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 139, in import_service
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO -     raise ImportServiceError(f'Failed to import module "{module_name}": {e}')
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO - bentoml.exceptions.ImportServiceError: Failed to import module "bertopic_autopik_bento": No module named 'bertopic_autopik_bento'
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:36:21.304+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -     return _run_code(code, main_globals, None,
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 87, in _run_code
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -     exec(code, run_globals)
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 180, in <module>
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -     main()  # pylint: disable=no-value-for-parameter
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+[2022-12-28T01:36:21.305+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2022-12-28T01:36:21.310+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+[2022-12-28T01:36:21.310+0000] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2022-12-28T01:36:21.310+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+[2022-12-28T01:36:21.310+0000] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2022-12-28T01:36:21.310+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 127, in main
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -     svc = bentoml.load(bento_identifier, working_dir=working_dir, standalone_load=True)
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 368, in load
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -     svc = load_bento(bento_identifier, standalone_load=standalone_load)
+[2022-12-28T01:36:21.311+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 221, in load_bento
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -     return _load_bento(bento, standalone_load)
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 247, in _load_bento
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:36:21.312+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:36:21.313+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:36:21.313+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:36:21.323+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:36:21.323+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:36:21.323+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:36:21.323+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:36:21.323+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-12-28T01:36:21.324+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-12-28T01:36:21.324+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-12-28T01:36:21.324+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-12-28T01:36:21.324+0000] {subprocess.py:93} INFO -   File "/root/bentoml/bentos/bertopic_autopik_bento/3dkjyuegj6oyuasc/src/bento_service_auto_pik.py", line 67, in <module>
+[2022-12-28T01:36:21.324+0000] {subprocess.py:93} INFO -     model = BERTopic.load("/opt/***/dags/data/bertopic_paraphrase-multilingual-MiniLM-L12-v2_40_20")
+[2022-12-28T01:36:21.328+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 2197, in load
+[2022-12-28T01:36:21.328+0000] {subprocess.py:93} INFO -     topic_model = joblib.load(file)
+[2022-12-28T01:36:21.328+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 648, in load
+[2022-12-28T01:36:21.328+0000] {subprocess.py:93} INFO -     obj = _unpickle(fobj)
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -     obj = unpickler.load()
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1212, in load
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -     dispatch[key[0]](self)
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1589, in load_reduce
+[2022-12-28T01:36:21.329+0000] {subprocess.py:93} INFO -     stack[-1] = func(*args)
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/storage.py", line 240, in _load_from_bytes
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -     return torch.load(io.BytesIO(b))
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 795, in load
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -     return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 1012, in _legacy_load
+[2022-12-28T01:36:21.330+0000] {subprocess.py:93} INFO -     result = unpickler.load()
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 958, in persistent_load
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -     wrap_storage=restore_location(obj, location),
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -     result = fn(storage, location)
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 185, in _cuda_deserialize
+[2022-12-28T01:36:21.331+0000] {subprocess.py:93} INFO -     return torch.UntypedStorage(obj.nbytes(), device=torch.device(location))
+[2022-12-28T01:36:21.332+0000] {subprocess.py:93} INFO - RuntimeError: CUDA error: out of memory
+[2022-12-28T01:36:21.332+0000] {subprocess.py:93} INFO - CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+[2022-12-28T01:36:21.332+0000] {subprocess.py:93} INFO - For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+[2022-12-28T01:37:28.998+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:29.002+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:37:29.003+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:37:29.003+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:37:29.003+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:37:29.004+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:37:29.004+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:37:29.004+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+[2022-12-28T01:37:29.005+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'bertopic_autopik_bento'
+[2022-12-28T01:37:29.005+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:29.005+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:37:29.006+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:29.006+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:29.006+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 359, in load
+[2022-12-28T01:37:29.007+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:37:29.007+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:29.007+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:29.007+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 139, in import_service
+[2022-12-28T01:37:29.008+0000] {subprocess.py:93} INFO -     raise ImportServiceError(f'Failed to import module "{module_name}": {e}')
+[2022-12-28T01:37:29.008+0000] {subprocess.py:93} INFO - bentoml.exceptions.ImportServiceError: Failed to import module "bertopic_autopik_bento": No module named 'bertopic_autopik_bento'
+[2022-12-28T01:37:29.009+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:29.009+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:37:29.009+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:29.009+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:29.010+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2022-12-28T01:37:29.010+0000] {subprocess.py:93} INFO -     return _run_code(code, main_globals, None,
+[2022-12-28T01:37:29.010+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 87, in _run_code
+[2022-12-28T01:37:29.010+0000] {subprocess.py:93} INFO -     exec(code, run_globals)
+[2022-12-28T01:37:29.011+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 180, in <module>
+[2022-12-28T01:37:29.011+0000] {subprocess.py:93} INFO -     main()  # pylint: disable=no-value-for-parameter
+[2022-12-28T01:37:29.011+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+[2022-12-28T01:37:29.011+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2022-12-28T01:37:29.011+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+[2022-12-28T01:37:29.012+0000] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2022-12-28T01:37:29.012+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+[2022-12-28T01:37:29.012+0000] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2022-12-28T01:37:29.012+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+[2022-12-28T01:37:29.013+0000] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2022-12-28T01:37:29.013+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 127, in main
+[2022-12-28T01:37:29.013+0000] {subprocess.py:93} INFO -     svc = bentoml.load(bento_identifier, working_dir=working_dir, standalone_load=True)
+[2022-12-28T01:37:29.013+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 368, in load
+[2022-12-28T01:37:29.013+0000] {subprocess.py:93} INFO -     svc = load_bento(bento_identifier, standalone_load=standalone_load)
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 221, in load_bento
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -     return _load_bento(bento, standalone_load)
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 247, in _load_bento
+[2022-12-28T01:37:29.014+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:37:29.015+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:29.015+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:29.015+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:37:29.015+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:37:29.015+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:37:29.016+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:37:29.016+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:37:29.016+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:37:29.016+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-12-28T01:37:29.016+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-12-28T01:37:29.017+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-12-28T01:37:29.017+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-12-28T01:37:29.017+0000] {subprocess.py:93} INFO -   File "/root/bentoml/bentos/bertopic_autopik_bento/3dkjyuegj6oyuasc/src/bento_service_auto_pik.py", line 67, in <module>
+[2022-12-28T01:37:29.017+0000] {subprocess.py:93} INFO -     model = BERTopic.load("/opt/***/dags/data/bertopic_paraphrase-multilingual-MiniLM-L12-v2_40_20")
+[2022-12-28T01:37:29.018+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 2197, in load
+[2022-12-28T01:37:29.018+0000] {subprocess.py:93} INFO -     topic_model = joblib.load(file)
+[2022-12-28T01:37:29.018+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 648, in load
+[2022-12-28T01:37:29.018+0000] {subprocess.py:93} INFO -     obj = _unpickle(fobj)
+[2022-12-28T01:37:29.018+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+[2022-12-28T01:37:29.019+0000] {subprocess.py:93} INFO -     obj = unpickler.load()
+[2022-12-28T01:37:29.019+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1212, in load
+[2022-12-28T01:37:29.019+0000] {subprocess.py:93} INFO -     dispatch[key[0]](self)
+[2022-12-28T01:37:29.019+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1589, in load_reduce
+[2022-12-28T01:37:29.019+0000] {subprocess.py:93} INFO -     stack[-1] = func(*args)
+[2022-12-28T01:37:29.020+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/storage.py", line 240, in _load_from_bytes
+[2022-12-28T01:37:29.020+0000] {subprocess.py:93} INFO -     return torch.load(io.BytesIO(b))
+[2022-12-28T01:37:29.020+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 795, in load
+[2022-12-28T01:37:29.021+0000] {subprocess.py:93} INFO -     return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+[2022-12-28T01:37:29.021+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 1012, in _legacy_load
+[2022-12-28T01:37:29.021+0000] {subprocess.py:93} INFO -     result = unpickler.load()
+[2022-12-28T01:37:29.021+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 958, in persistent_load
+[2022-12-28T01:37:29.022+0000] {subprocess.py:93} INFO -     wrap_storage=restore_location(obj, location),
+[2022-12-28T01:37:29.022+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+[2022-12-28T01:37:29.022+0000] {subprocess.py:93} INFO -     result = fn(storage, location)
+[2022-12-28T01:37:29.022+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 185, in _cuda_deserialize
+[2022-12-28T01:37:29.023+0000] {subprocess.py:93} INFO -     return torch.UntypedStorage(obj.nbytes(), device=torch.device(location))
+[2022-12-28T01:37:29.023+0000] {subprocess.py:93} INFO - RuntimeError: CUDA error: out of memory
+[2022-12-28T01:37:29.023+0000] {subprocess.py:93} INFO - CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+[2022-12-28T01:37:29.023+0000] {subprocess.py:93} INFO - For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+[2022-12-28T01:37:30.504+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:30.505+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:37:30.506+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:37:30.506+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:37:30.506+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:37:30.507+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:37:30.507+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:37:30.507+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+[2022-12-28T01:37:30.508+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'bertopic_autopik_bento'
+[2022-12-28T01:37:30.508+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:30.508+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:37:30.509+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:30.509+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:30.509+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 359, in load
+[2022-12-28T01:37:30.510+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:37:30.510+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:30.510+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:30.510+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 139, in import_service
+[2022-12-28T01:37:30.511+0000] {subprocess.py:93} INFO -     raise ImportServiceError(f'Failed to import module "{module_name}": {e}')
+[2022-12-28T01:37:30.511+0000] {subprocess.py:93} INFO - bentoml.exceptions.ImportServiceError: Failed to import module "bertopic_autopik_bento": No module named 'bertopic_autopik_bento'
+[2022-12-28T01:37:30.511+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:30.512+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2022-12-28T01:37:30.512+0000] {subprocess.py:93} INFO - 
+[2022-12-28T01:37:30.512+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:37:30.513+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2022-12-28T01:37:30.513+0000] {subprocess.py:93} INFO -     return _run_code(code, main_globals, None,
+[2022-12-28T01:37:30.513+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/runpy.py", line 87, in _run_code
+[2022-12-28T01:37:30.514+0000] {subprocess.py:93} INFO -     exec(code, run_globals)
+[2022-12-28T01:37:30.514+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 180, in <module>
+[2022-12-28T01:37:30.514+0000] {subprocess.py:93} INFO -     main()  # pylint: disable=no-value-for-parameter
+[2022-12-28T01:37:30.514+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+[2022-12-28T01:37:30.515+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2022-12-28T01:37:30.515+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+[2022-12-28T01:37:30.516+0000] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2022-12-28T01:37:30.516+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+[2022-12-28T01:37:30.516+0000] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2022-12-28T01:37:30.517+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+[2022-12-28T01:37:30.517+0000] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2022-12-28T01:37:30.517+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/worker/http_api_server.py", line 127, in main
+[2022-12-28T01:37:30.518+0000] {subprocess.py:93} INFO -     svc = bentoml.load(bento_identifier, working_dir=working_dir, standalone_load=True)
+[2022-12-28T01:37:30.518+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 368, in load
+[2022-12-28T01:37:30.518+0000] {subprocess.py:93} INFO -     svc = load_bento(bento_identifier, standalone_load=standalone_load)
+[2022-12-28T01:37:30.519+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:30.519+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:30.522+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 221, in load_bento
+[2022-12-28T01:37:30.523+0000] {subprocess.py:93} INFO -     return _load_bento(bento, standalone_load)
+[2022-12-28T01:37:30.524+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 247, in _load_bento
+[2022-12-28T01:37:30.524+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-28T01:37:30.525+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-28T01:37:30.525+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-28T01:37:30.526+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-28T01:37:30.527+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-28T01:37:30.527+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-28T01:37:30.545+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-28T01:37:30.545+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-28T01:37:30.546+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-28T01:37:30.546+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-12-28T01:37:30.547+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-12-28T01:37:30.547+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-12-28T01:37:30.547+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-12-28T01:37:30.548+0000] {subprocess.py:93} INFO -   File "/root/bentoml/bentos/bertopic_autopik_bento/3dkjyuegj6oyuasc/src/bento_service_auto_pik.py", line 67, in <module>
+[2022-12-28T01:37:30.551+0000] {subprocess.py:93} INFO -     model = BERTopic.load("/opt/***/dags/data/bertopic_paraphrase-multilingual-MiniLM-L12-v2_40_20")
+[2022-12-28T01:37:30.551+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 2197, in load
+[2022-12-28T01:37:30.552+0000] {subprocess.py:93} INFO -     topic_model = joblib.load(file)
+[2022-12-28T01:37:30.553+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 648, in load
+[2022-12-28T01:37:30.553+0000] {subprocess.py:93} INFO -     obj = _unpickle(fobj)
+[2022-12-28T01:37:30.553+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/joblib/numpy_pickle.py", line 577, in _unpickle
+[2022-12-28T01:37:30.554+0000] {subprocess.py:93} INFO -     obj = unpickler.load()
+[2022-12-28T01:37:30.554+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1212, in load
+[2022-12-28T01:37:30.554+0000] {subprocess.py:93} INFO -     dispatch[key[0]](self)
+[2022-12-28T01:37:30.555+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/pickle.py", line 1589, in load_reduce
+[2022-12-28T01:37:30.555+0000] {subprocess.py:93} INFO -     stack[-1] = func(*args)
+[2022-12-28T01:37:30.556+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/storage.py", line 240, in _load_from_bytes
+[2022-12-28T01:37:30.569+0000] {subprocess.py:93} INFO -     return torch.load(io.BytesIO(b))
+[2022-12-28T01:37:30.570+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 795, in load
+[2022-12-28T01:37:30.571+0000] {subprocess.py:93} INFO -     return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+[2022-12-28T01:37:30.586+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 1012, in _legacy_load
+[2022-12-28T01:37:30.596+0000] {subprocess.py:93} INFO -     result = unpickler.load()
+[2022-12-28T01:37:30.597+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 958, in persistent_load
+[2022-12-28T01:37:30.598+0000] {subprocess.py:93} INFO -     wrap_storage=restore_location(obj, location),
+[2022-12-28T01:37:30.598+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 215, in default_restore_location
+[2022-12-28T01:37:30.599+0000] {subprocess.py:93} INFO -     result = fn(storage, location)
+[2022-12-28T01:37:30.599+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/torch/serialization.py", line 185, in _cuda_deserialize
+[2022-12-28T01:37:30.600+0000] {subprocess.py:93} INFO -     return torch.UntypedStorage(obj.nbytes(), device=torch.device(location))
+[2022-12-28T01:37:30.600+0000] {subprocess.py:93} INFO - RuntimeError: CUDA error: out of memory
+[2022-12-28T01:37:30.601+0000] {subprocess.py:93} INFO - CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+[2022-12-28T01:37:30.602+0000] {subprocess.py:93} INFO - For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+[2022-12-28T01:37:54.126+0000] {base_job.py:232} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/base_job.py", line 204, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2955, in merge
+    return self._merge(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3035, in _merge
+    merged = self.get(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2768, in get
+    return self._get_impl(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2874, in _get_impl
+    return db_load_fn(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/loading.py", line 530, in load_on_pk_identity
+    session.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1529, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3246, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2100, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-12-28T01:38:26.002+0000] {base_job.py:232} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/base_job.py", line 204, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2955, in merge
+    return self._merge(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 3035, in _merge
+    merged = self.get(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2768, in get
+    return self._get_impl(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2874, in _get_impl
+    return db_load_fn(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/loading.py", line 530, in load_on_pk_identity
+    session.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1688, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1529, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3197, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3276, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3246, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2100, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3243, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 584, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2022-12-28T01:38:38.836+0000] {subprocess.py:93} INFO - /bin/bash: line 2:   660 Killed                  bentoml serve -p 7171 bertopic_autopik_bento:latest --production
+[2022-12-28T01:48:16.349+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:18] 172.18.0.1:48668 (scheme=http,method=GET,path=/,type=,length=) (status=200,type=text/html; charset=utf-8,length=2859) 1.145ms (trace=645195081987e7ca07a3c8023676f4e8,span=85afca50139ddaae,sampled=0)
+[2022-12-28T01:48:16.456+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:8] 172.18.0.1:48658 (scheme=http,method=GET,path=/static_content/index.css,type=,length=) (status=200,type=text/css; charset=utf-8,length=1125) 71.038ms (trace=8673c8ce0f4479b13d26f139f07b2501,span=a559f6d1281c6bdc,sampled=0)
+[2022-12-28T01:48:16.471+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:18] 172.18.0.1:48668 (scheme=http,method=GET,path=/static_content/swagger-ui.css,type=,length=) (status=200,type=text/css; charset=utf-8,length=143980) 88.807ms (trace=d3de1ad9f865950b2f52d5d2ddc90d58,span=009b1cae8db7aac5,sampled=0)
+[2022-12-28T01:48:16.507+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:8] 172.18.0.1:48658 (scheme=http,method=GET,path=/static_content/swagger-ui-standalone-preset.js,type=,length=) (status=200,type=application/javascript,length=339540) 25.943ms (trace=327727f59363c8c16975eaa69671dfb5,span=ff02ebf3a6250e9f,sampled=0)
+[2022-12-28T01:48:16.516+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:18] 172.18.0.1:48668 (scheme=http,method=GET,path=/static_content/swagger-initializer.js,type=,length=) (status=200,type=application/javascript,length=381) 15.014ms (trace=ccc2bc0ffcd799da74202bd9f656e42d,span=81b8c4ed5d44501c,sampled=0)
+[2022-12-28T01:48:16.517+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:16+0000 [INFO] [api_server:bertopic_autopik_bento:15] 172.18.0.1:48678 (scheme=http,method=GET,path=/static_content/swagger-ui-bundle.js,type=,length=) (status=200,type=application/javascript,length=1096221) 129.898ms (trace=dfa77f9d7f10d83ea9ae07a57661d3a4,span=d7525bf9266129fc,sampled=0)
+[2022-12-28T01:48:17.170+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:17+0000 [INFO] [api_server:bertopic_autopik_bento:18] 172.18.0.1:48668 (scheme=http,method=GET,path=/static_content/favicon-32x32.png,type=,length=) (status=200,type=image/png,length=1912) 8.416ms (trace=bf53eacc87368e80a7326496b5cbc4aa,span=c5580d72e0dc045c,sampled=0)
+[2022-12-28T01:48:17.176+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:17+0000 [INFO] [api_server:bertopic_autopik_bento:15] 172.18.0.1:48678 (scheme=http,method=GET,path=/docs.json,type=,length=) (status=200,type=application/json,length=4699) 43.722ms (trace=dd4e7dd5df62ceaf142ed739e64c98bb,span=0fa016239f8546b0,sampled=0)
+[2022-12-28T01:48:23.308+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:23+0000 [INFO] [api_server:bertopic_autopik_bento:7] 172.18.0.1:50554 (scheme=http,method=GET,path=/,type=,length=) (status=200,type=text/html; charset=utf-8,length=2859) 0.662ms (trace=3a294ece7e9153755fe92a5af9cef5ed,span=8d8d578c71a8b4bd,sampled=0)
+[2022-12-28T01:48:23.508+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:23+0000 [INFO] [api_server:bertopic_autopik_bento:7] 172.18.0.1:50554 (scheme=http,method=GET,path=/docs.json,type=,length=) (status=200,type=application/json,length=4699) 27.496ms (trace=3445a601996e18b7b75e707d72a6c224,span=b5c5a0d8aefe81af,sampled=0)
+[2022-12-28T01:48:35.858+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:35+0000 [ERROR] [runner:bertopik_runner:1] Exception in ASGI application
+[2022-12-28T01:48:35.859+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:48:35.859+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+[2022-12-28T01:48:35.860+0000] {subprocess.py:93} INFO -     result = await app(  # type: ignore[func-returns-value]
+[2022-12-28T01:48:35.861+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[2022-12-28T01:48:35.861+0000] {subprocess.py:93} INFO -     return await self.app(scope, receive, send)
+[2022-12-28T01:48:35.861+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 86, in __call__
+[2022-12-28T01:48:35.861+0000] {subprocess.py:93} INFO -     raise exc from None
+[2022-12-28T01:48:35.862+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/uvicorn/middleware/message_logger.py", line 82, in __call__
+[2022-12-28T01:48:35.862+0000] {subprocess.py:93} INFO -     await self.app(scope, inner_receive, inner_send)
+[2022-12-28T01:48:35.862+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/applications.py", line 125, in __call__
+[2022-12-28T01:48:35.862+0000] {subprocess.py:93} INFO -     await self.middleware_stack(scope, receive, send)
+[2022-12-28T01:48:35.862+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+[2022-12-28T01:48:35.863+0000] {subprocess.py:93} INFO -     raise exc
+[2022-12-28T01:48:35.863+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+[2022-12-28T01:48:35.863+0000] {subprocess.py:93} INFO -     await self.app(scope, receive, _send)
+[2022-12-28T01:48:35.863+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/opentelemetry/instrumentation/asgi/__init__.py", line 581, in __call__
+[2022-12-28T01:48:35.863+0000] {subprocess.py:93} INFO -     await self.app(scope, otel_receive, otel_send)
+[2022-12-28T01:48:35.864+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/server/http/instruments.py", line 293, in __call__
+[2022-12-28T01:48:35.864+0000] {subprocess.py:93} INFO -     await self.app(scope, receive, wrapped_send)
+[2022-12-28T01:48:35.864+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/server/http/access.py", line 126, in __call__
+[2022-12-28T01:48:35.864+0000] {subprocess.py:93} INFO -     await self.app(scope, receive, wrapped_send)
+[2022-12-28T01:48:35.864+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -     raise exc
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -     await self.app(scope, receive, sender)
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -     await route.handle(scope, receive, send)
+[2022-12-28T01:48:35.865+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+[2022-12-28T01:48:35.866+0000] {subprocess.py:93} INFO -     await self.app(scope, receive, send)
+[2022-12-28T01:48:35.866+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+[2022-12-28T01:48:35.866+0000] {subprocess.py:93} INFO -     response = await func(request)
+[2022-12-28T01:48:35.866+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/server/runner_app.py", line 270, in _request_handler
+[2022-12-28T01:48:35.866+0000] {subprocess.py:93} INFO -     payload = await infer(params)
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/marshal/dispatcher.py", line 166, in _func
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -     raise r
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/marshal/dispatcher.py", line 397, in outbound_call
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -     outputs = await self.callback(tuple(d for _, d, _ in inputs_info))
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/server/runner_app.py", line 238, in infer_batch
+[2022-12-28T01:48:35.867+0000] {subprocess.py:93} INFO -     batch_ret = await runner_method.async_run(
+[2022-12-28T01:48:35.868+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runner.py", line 53, in async_run
+[2022-12-28T01:48:35.868+0000] {subprocess.py:93} INFO -     return await self.runner._runner_handle.async_run_method(  # type: ignore
+[2022-12-28T01:48:35.868+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runner_handle/local.py", line 59, in async_run_method
+[2022-12-28T01:48:35.868+0000] {subprocess.py:93} INFO -     return await anyio.to_thread.run_sync(
+[2022-12-28T01:48:35.868+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -     return await get_asynclib().run_sync_in_worker_thread(
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -     return await future
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -     result = context.run(func, *args)
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runnable.py", line 139, in method
+[2022-12-28T01:48:35.869+0000] {subprocess.py:93} INFO -     return self.func(obj, *args, **kwargs)
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -   File "/root/bentoml/bentos/bertopic_autopik_bento/3dkjyuegj6oyuasc/src/bento_service_auto_pik.py", line 145, in predict
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -     return self.model.transform(input)
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 423, in transform
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -     umap_embeddings = self.umap_model.transform(embeddings)
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/umap/umap_.py", line 2807, in transform
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -     X = check_array(X, dtype=np.float32, accept_sparse="csr", order="C")
+[2022-12-28T01:48:35.870+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/sklearn/utils/validation.py", line 900, in check_array
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO -     raise ValueError(
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO - ValueError: Expected 2D array, got 1D array instead:
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO - array=[].
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO - Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:35+0000 [ERROR] [api_server:bertopic_autopik_bento:18] Exception on /predict [POST] (trace=bcfad716e98817846f59b21388c8593b,span=50bed91d0b4a4640,sampled=0)
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/server/http_app.py", line 330, in api_func
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO -     output: t.Any = await run_in_threadpool(api.func, **input_data)
+[2022-12-28T01:48:35.871+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/starlette/concurrency.py", line 41, in run_in_threadpool
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -     return await anyio.to_thread.run_sync(func, *args)
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/to_thread.py", line 31, in run_sync
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -     return await get_asynclib().run_sync_in_worker_thread(
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 937, in run_sync_in_worker_thread
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -     return await future
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 867, in run
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -     result = context.run(func, *args)
+[2022-12-28T01:48:35.872+0000] {subprocess.py:93} INFO -   File "/root/bentoml/bentos/bertopic_autopik_bento/3dkjyuegj6oyuasc/src/bento_service_auto_pik.py", line 265, in predict
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -     results = bertopik_runner.run(list_of_docs)  ##링크들을 카테고리로 나눈 결과와 그 키워드들
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runner.py", line 46, in run
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -     return self.runner._runner_handle.run_method(  # type: ignore
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runner_handle/remote.py", line 245, in run_method
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -     anyio.from_thread.run(
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/from_thread.py", line 49, in run
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -     return asynclib.run_async_from_thread(func, *args)
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 970, in run_async_from_thread
+[2022-12-28T01:48:35.873+0000] {subprocess.py:93} INFO -     return f.result()
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 444, in result
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -     return self.__get_result()
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -     raise self._exception
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/runner/runner_handle/remote.py", line 200, in async_run_method
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO -     raise RemoteException(
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO - bentoml.exceptions.RemoteException: An unexpected exception occurred in remote runner bertopik_runner: [500] Internal Server Error
+[2022-12-28T01:48:35.874+0000] {subprocess.py:93} INFO - 2022-12-28T01:48:35+0000 [INFO] [api_server:bertopic_autopik_bento:18] 172.18.0.1:50570 (scheme=http,method=POST,path=/predict,type=multipart/form-data; boundary=----WebKitFormBoundary88MvzAO13DLuxNY3,length=140) (status=500,type=application/json,length=2) 283.608ms (trace=bcfad716e98817846f59b21388c8593b,span=50bed91d0b4a4640,sampled=0)
+[2022-12-28T01:49:44.799+0000] {local_task_job.py:87} ERROR - Received SIGTERM. Terminating subprocesses
+[2022-12-28T01:49:44.805+0000] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 637. PIDs of all processes in the group: [658, 637]
+[2022-12-28T01:49:44.805+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 637
+[2022-12-28T01:49:44.806+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-12-28T01:49:44.806+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2022-12-28T01:49:44.825+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 187, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b''):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-12-28T01:49:44.833+0000] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=bertopic_autopik_***, task_id=serve_bentoml, execution_date=20221228T012602, start_date=20221228T013504, end_date=20221228T014944
+[2022-12-28T01:49:45.271+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 15 for task serve_bentoml (Task received SIGTERM signal; 637)
+[2022-12-28T01:49:45.399+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=637, status='terminated', exitcode=1, started='01:35:04') (637) terminated with exit code 1
+[2022-12-28T01:49:45.400+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=658, status='terminated', started='01:35:15') (658) terminated with exit code None
+[2022-12-28T01:49:45.401+0000] {local_task_job.py:164} INFO - Task exited with return code 143
+[2022-12-28T01:49:45.432+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

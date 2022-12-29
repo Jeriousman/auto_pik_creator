@@ -1,0 +1,1040 @@
+[2022-12-26T03:59:01.229+0000] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T03:59:01.230+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T03:59:01.231+0000] {logging_mixin.py:137} INFO - [2022-12-26T03:59:01.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T03:59:22.369+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T03:59:22.385+0000] {logging_mixin.py:137} INFO - [2022-12-26T03:59:22.384+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T03:59:22.422+0000] {logging_mixin.py:137} INFO - [2022-12-26T03:59:22.421+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T00:00:00+00:00, run_after=2022-12-26T02:00:00+00:00
+[2022-12-26T03:59:22.460+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 21.235 seconds
+[2022-12-26T03:59:53.197+0000] {processor.py:153} INFO - Started process (PID=156) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T03:59:53.198+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T03:59:53.199+0000] {logging_mixin.py:137} INFO - [2022-12-26T03:59:53.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:00:03.145+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:00:03.187+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:00:03.187+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:00:03.220+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:00:03.220+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:00:03.256+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.062 seconds
+[2022-12-26T04:00:34.114+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:00:34.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:00:34.125+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:00:34.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:00:43.882+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:00:43.920+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:00:43.920+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:00:43.950+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:00:43.949+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:00:43.983+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.872 seconds
+[2022-12-26T04:01:14.208+0000] {processor.py:153} INFO - Started process (PID=351) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:01:14.218+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:01:14.219+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:01:14.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:01:24.040+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:01:24.076+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:01:24.075+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:01:24.107+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:01:24.107+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:01:24.134+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.929 seconds
+[2022-12-26T04:01:54.284+0000] {processor.py:153} INFO - Started process (PID=437) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:01:54.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:01:54.295+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:01:54.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:02:04.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:02:04.101+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:02:04.100+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:02:04.134+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:02:04.133+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:02:04.169+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.889 seconds
+[2022-12-26T04:02:34.879+0000] {processor.py:153} INFO - Started process (PID=523) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:02:34.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:02:34.890+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:02:34.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:02:44.750+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:02:44.792+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:02:44.791+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:02:44.825+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:02:44.824+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:02:44.861+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.985 seconds
+[2022-12-26T04:03:15.135+0000] {processor.py:153} INFO - Started process (PID=632) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:03:15.145+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:03:15.146+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:03:15.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:03:24.941+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:03:24.992+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:03:24.991+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:03:25.028+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:03:25.027+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:03:25.055+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.923 seconds
+[2022-12-26T04:03:55.487+0000] {processor.py:153} INFO - Started process (PID=718) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:03:55.497+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:03:55.498+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:03:55.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:04:05.202+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:04:05.242+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:04:05.241+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:04:05.271+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:04:05.271+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:04:05.305+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.821 seconds
+[2022-12-26T04:04:35.492+0000] {processor.py:153} INFO - Started process (PID=804) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:04:35.493+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:04:35.493+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:04:35.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:04:45.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:04:45.333+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:04:45.333+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:04:45.374+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:04:45.374+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:04:45.402+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.914 seconds
+[2022-12-26T04:05:15.638+0000] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:05:15.648+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:05:15.649+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:05:15.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:05:25.572+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:05:25.609+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:05:25.608+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:05:25.639+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:05:25.639+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:05:25.665+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.031 seconds
+[2022-12-26T04:05:56.407+0000] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:05:56.416+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:05:56.417+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:05:56.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:06:06.263+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:06:06.301+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:06:06.300+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:06:06.331+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:06:06.331+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:06:06.365+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.961 seconds
+[2022-12-26T04:06:36.593+0000] {processor.py:153} INFO - Started process (PID=1085) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:06:36.604+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:06:36.604+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:06:36.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:06:46.415+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:06:46.452+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:06:46.452+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:06:46.482+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:06:46.481+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:06:46.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.924 seconds
+[2022-12-26T04:07:16.909+0000] {processor.py:153} INFO - Started process (PID=1171) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:07:16.919+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:07:16.920+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:07:16.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:07:26.713+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:07:26.751+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:07:26.750+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:07:26.781+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:07:26.781+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:07:26.817+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.912 seconds
+[2022-12-26T04:07:57.099+0000] {processor.py:153} INFO - Started process (PID=1257) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:07:57.109+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:07:57.110+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:07:57.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:08:06.937+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:08:06.974+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:08:06.973+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:08:07.004+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:08:07.003+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:08:07.039+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.943 seconds
+[2022-12-26T04:08:37.556+0000] {processor.py:153} INFO - Started process (PID=1364) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:08:37.556+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:08:37.557+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:08:37.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:08:47.195+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:08:47.233+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:08:47.232+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:08:47.262+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:08:47.262+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:08:47.296+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.743 seconds
+[2022-12-26T04:09:17.499+0000] {processor.py:153} INFO - Started process (PID=1452) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:09:17.508+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:09:17.509+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:09:17.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:09:27.218+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:09:27.259+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:09:27.258+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:09:27.293+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:09:27.293+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:09:27.327+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.833 seconds
+[2022-12-26T04:09:57.663+0000] {processor.py:153} INFO - Started process (PID=1538) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:09:57.673+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:09:57.674+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:09:57.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:10:07.206+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:10:07.243+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:10:07.242+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:10:07.279+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:10:07.278+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:10:07.315+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.655 seconds
+[2022-12-26T04:10:38.013+0000] {processor.py:153} INFO - Started process (PID=1624) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:10:38.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:10:38.025+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:10:38.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:10:47.851+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:10:47.888+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:10:47.887+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:10:47.917+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:10:47.917+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:10:47.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.944 seconds
+[2022-12-26T04:11:18.448+0000] {processor.py:153} INFO - Started process (PID=1731) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:11:18.449+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:11:18.449+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:11:18.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:11:27.941+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:11:27.977+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:11:27.976+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:11:28.008+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:11:28.007+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:11:28.042+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.598 seconds
+[2022-12-26T04:11:58.628+0000] {processor.py:153} INFO - Started process (PID=1819) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:11:58.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:11:58.639+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:11:58.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:12:08.424+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:12:08.462+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:12:08.462+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:12:08.493+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:12:08.493+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:12:08.529+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.904 seconds
+[2022-12-26T04:12:39.256+0000] {processor.py:153} INFO - Started process (PID=1905) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:12:39.266+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:12:39.267+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:12:39.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:12:48.995+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:12:49.035+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:12:49.034+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:12:49.068+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:12:49.067+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:12:49.105+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.852 seconds
+[2022-12-26T04:13:19.173+0000] {processor.py:153} INFO - Started process (PID=1991) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:13:19.184+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:13:19.185+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:13:19.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:13:28.805+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:13:28.841+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:13:28.841+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:13:28.871+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:13:28.871+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:13:28.896+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.727 seconds
+[2022-12-26T04:13:59.495+0000] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:13:59.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:13:59.497+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:13:59.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:14:09.189+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:14:09.227+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:14:09.226+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:14:09.259+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:14:09.259+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:14:09.288+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.796 seconds
+[2022-12-26T04:14:39.419+0000] {processor.py:153} INFO - Started process (PID=2186) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:14:39.429+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:14:39.430+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:14:39.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:14:49.283+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:14:49.321+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:14:49.321+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:14:49.355+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:14:49.355+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:14:49.391+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.975 seconds
+[2022-12-26T04:15:19.849+0000] {processor.py:153} INFO - Started process (PID=2272) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:15:19.850+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:15:19.851+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:15:19.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:15:29.456+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:15:29.500+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:15:29.499+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:15:29.534+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:15:29.534+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:15:29.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.716 seconds
+[2022-12-26T04:15:59.992+0000] {processor.py:153} INFO - Started process (PID=2358) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:15:59.993+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:15:59.994+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:15:59.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:16:09.901+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:16:09.940+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:16:09.939+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:16:09.969+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:16:09.969+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:16:10.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.014 seconds
+[2022-12-26T04:16:40.292+0000] {processor.py:153} INFO - Started process (PID=2465) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:16:40.302+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:16:40.302+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:16:40.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:16:50.088+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:16:50.129+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:16:50.129+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:16:50.160+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:16:50.160+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:16:50.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.897 seconds
+[2022-12-26T04:17:20.364+0000] {processor.py:153} INFO - Started process (PID=2553) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:17:20.374+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:17:20.375+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:17:20.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:17:30.120+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:17:30.156+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:17:30.155+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:17:30.186+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:17:30.186+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:17:30.221+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.866 seconds
+[2022-12-26T04:18:00.618+0000] {processor.py:153} INFO - Started process (PID=2639) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:00.627+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:18:00.628+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:00.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:10.247+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:10.284+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:10.284+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:18:10.317+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:10.317+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:18:10.345+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.731 seconds
+[2022-12-26T04:18:40.480+0000] {processor.py:153} INFO - Started process (PID=2725) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:40.490+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:18:40.491+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:40.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:50.189+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:18:50.228+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:50.227+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:18:50.257+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:18:50.257+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:18:50.293+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.816 seconds
+[2022-12-26T04:19:20.525+0000] {processor.py:153} INFO - Started process (PID=2811) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:19:20.535+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:19:20.537+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:19:20.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:19:33.621+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:19:33.680+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:19:33.679+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:19:33.728+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:19:33.727+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:19:33.772+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.251 seconds
+[2022-12-26T04:20:03.899+0000] {processor.py:153} INFO - Started process (PID=2897) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:03.909+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:20:03.910+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:03.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:16.131+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:16.216+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:16.215+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:20:16.291+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:16.290+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:20:16.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.457 seconds
+[2022-12-26T04:20:46.868+0000] {processor.py:153} INFO - Started process (PID=2983) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:46.878+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:20:46.878+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:46.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:57.897+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:20:57.975+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:57.974+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:20:58.014+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:20:58.014+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:20:58.049+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.186 seconds
+[2022-12-26T04:21:28.850+0000] {processor.py:153} INFO - Started process (PID=3090) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:21:28.851+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:21:28.852+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:21:28.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:21:39.962+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:21:40.009+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:21:40.008+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:21:40.050+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:21:40.050+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:21:40.091+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.244 seconds
+[2022-12-26T04:22:10.402+0000] {processor.py:153} INFO - Started process (PID=3178) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:22:10.412+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:22:10.413+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:22:10.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:22:21.137+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:22:21.179+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:22:21.178+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:22:21.209+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:22:21.209+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:22:21.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.846 seconds
+[2022-12-26T04:22:51.709+0000] {processor.py:153} INFO - Started process (PID=3264) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:22:51.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:22:51.724+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:22:51.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:23:02.634+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:23:02.684+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:23:02.684+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:23:02.718+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:23:02.718+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:23:02.754+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.053 seconds
+[2022-12-26T04:23:33.650+0000] {processor.py:153} INFO - Started process (PID=3371) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:23:33.660+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:23:33.661+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:23:33.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:23:43.925+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:23:43.970+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:23:43.969+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:23:44.005+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:23:44.004+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:23:44.033+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.387 seconds
+[2022-12-26T04:24:14.105+0000] {processor.py:153} INFO - Started process (PID=3459) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:24:14.106+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:24:14.106+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:24:14.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:24:23.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:24:23.680+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:24:23.680+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:24:23.709+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:24:23.708+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:24:23.733+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.632 seconds
+[2022-12-26T04:24:53.919+0000] {processor.py:153} INFO - Started process (PID=3545) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:24:53.929+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:24:53.930+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:24:53.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:25:04.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:25:04.231+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:25:04.230+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-26T04:25:04.257+0000] {logging_mixin.py:137} INFO - [2022-12-26T04:25:04.257+0000] {dag.py:3423} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:25:04.291+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.375 seconds
+[2022-12-26T04:35:36.686+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:35:36.687+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:35:36.688+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:35:36.688+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:01.577+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:01.874+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.874+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:bertopic_autopik_airflow
+[2022-12-26T04:36:01.890+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.889+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:bertopic_autopik_airflow
+[2022-12-26T04:36:01.903+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.902+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:bertopic_autopik_airflow
+[2022-12-26T04:36:01.903+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.903+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:36:01.921+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.920+0000] {dag.py:2594} INFO - Creating ORM DAG for bertopic_autopik_airflow
+[2022-12-26T04:36:01.940+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:01.940+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T02:00:00+00:00, run_after=2022-12-26T04:00:00+00:00
+[2022-12-26T04:36:01.967+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 25.286 seconds
+[2022-12-26T04:36:33.020+0000] {processor.py:156} INFO - Started process (PID=136) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:33.023+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:36:33.025+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:33.025+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:46.478+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:46.541+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:46.540+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:36:46.587+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:46.587+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:36:46.622+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.616 seconds
+[2022-12-26T04:36:57.547+0000] {processor.py:156} INFO - Started process (PID=221) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:36:57.548+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:36:57.549+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:36:57.549+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:37:08.168+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:37:08.187+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-12-26T04:37:08.823+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: bertopic_autopik_airflow.clear_bento scheduled__2022-12-26T02:00:00+00:00 [failed]> in state failed
+[2022-12-26T04:37:08.866+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:37:08.865+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:37:08.892+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:37:08.892+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:37:08.916+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.373 seconds
+[2022-12-26T04:37:39.671+0000] {processor.py:156} INFO - Started process (PID=307) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:37:39.681+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:37:39.682+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:37:39.681+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:37:49.127+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:37:49.148+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/configuration.py:545 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2022-12-26T04:37:49.784+0000] {processor.py:727} INFO - Executed failure callback for <TaskInstance: bertopic_autopik_airflow.clear_bento scheduled__2022-12-26T02:00:00+00:00 [failed]> in state failed
+[2022-12-26T04:37:49.850+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:37:49.850+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:37:49.893+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:37:49.893+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:37:49.934+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.267 seconds
+[2022-12-26T04:38:20.040+0000] {processor.py:156} INFO - Started process (PID=414) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:38:20.041+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:38:20.042+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:38:20.042+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:38:29.434+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:38:29.471+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:38:29.469+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:38:29.498+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:38:29.498+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:38:29.532+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.495 seconds
+[2022-12-26T04:39:00.377+0000] {processor.py:156} INFO - Started process (PID=502) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:00.387+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:39:00.388+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:00.388+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:09.449+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:09.484+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:09.483+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:39:09.510+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:09.509+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:39:09.542+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.168 seconds
+[2022-12-26T04:39:39.948+0000] {processor.py:156} INFO - Started process (PID=588) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:39.958+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:39:39.959+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:39.958+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:49.044+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:39:49.081+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:49.081+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:39:49.110+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:39:49.110+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:39:49.143+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.199 seconds
+[2022-12-26T04:40:19.513+0000] {processor.py:156} INFO - Started process (PID=674) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:40:19.523+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:40:19.524+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:40:19.524+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:40:29.013+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:40:29.051+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:40:29.050+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:40:29.078+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:40:29.077+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:40:29.102+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.592 seconds
+[2022-12-26T04:40:59.668+0000] {processor.py:156} INFO - Started process (PID=783) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:40:59.678+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T04:40:59.679+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:40:59.679+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:41:09.594+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T04:41:09.630+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:41:09.629+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T04:41:09.658+0000] {logging_mixin.py:117} INFO - [2022-12-26T04:41:09.657+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T04:41:09.690+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.025 seconds
+[2022-12-26T06:22:20.499+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:22:20.500+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:22:20.501+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:20.501+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:22:44.757+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:22:45.092+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.092+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:bertopic_autopik_airflow
+[2022-12-26T06:22:45.108+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.108+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:bertopic_autopik_airflow
+[2022-12-26T06:22:45.121+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.121+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:bertopic_autopik_airflow
+[2022-12-26T06:22:45.122+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.121+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:22:45.142+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.141+0000] {dag.py:2594} INFO - Creating ORM DAG for bertopic_autopik_airflow
+[2022-12-26T06:22:45.166+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:22:45.165+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:22:45.196+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 24.700 seconds
+[2022-12-26T06:23:15.293+0000] {processor.py:156} INFO - Started process (PID=136) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:23:15.304+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:23:15.305+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:23:15.304+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:23:27.687+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:23:27.729+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:23:27.728+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:23:27.760+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:23:27.759+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:23:27.794+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.503 seconds
+[2022-12-26T06:23:58.845+0000] {processor.py:156} INFO - Started process (PID=262) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:23:58.855+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:23:58.856+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:23:58.856+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:24:09.243+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:24:09.281+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:24:09.280+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:24:09.311+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:24:09.311+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:24:09.338+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.496 seconds
+[2022-12-26T06:24:39.893+0000] {processor.py:156} INFO - Started process (PID=351) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:24:39.904+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:24:39.904+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:24:39.904+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:24:50.848+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:24:50.902+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:24:50.901+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:24:50.943+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:24:50.943+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:24:50.979+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.089 seconds
+[2022-12-26T06:25:21.467+0000] {processor.py:156} INFO - Started process (PID=437) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:25:21.476+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:25:21.478+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:25:21.478+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:25:33.227+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:25:33.293+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:25:33.292+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:25:33.339+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:25:33.339+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:25:33.396+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.933 seconds
+[2022-12-26T06:26:03.913+0000] {processor.py:156} INFO - Started process (PID=523) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:26:03.915+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T06:26:03.916+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:26:03.916+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:26:15.277+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T06:26:15.333+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:26:15.332+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T06:26:15.375+0000] {logging_mixin.py:117} INFO - [2022-12-26T06:26:15.375+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T06:26:15.419+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.511 seconds
+[2022-12-26T07:10:26.507+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:10:26.509+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:10:26.511+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:26.510+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:10:50.505+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:10:51.324+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.324+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:bertopic_autopik_airflow
+[2022-12-26T07:10:51.351+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.351+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:bertopic_autopik_airflow
+[2022-12-26T07:10:51.388+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.387+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:bertopic_autopik_airflow
+[2022-12-26T07:10:51.389+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.388+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:10:51.432+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.431+0000] {dag.py:2594} INFO - Creating ORM DAG for bertopic_autopik_airflow
+[2022-12-26T07:10:51.482+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:10:51.482+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T04:00:00+00:00, run_after=2022-12-26T06:00:00+00:00
+[2022-12-26T07:10:51.543+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 25.040 seconds
+[2022-12-26T07:11:21.870+0000] {processor.py:156} INFO - Started process (PID=163) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:11:21.872+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:11:21.873+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:11:21.872+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:11:35.047+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:11:35.210+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:11:35.208+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:11:35.287+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:11:35.286+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:11:35.337+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.475 seconds
+[2022-12-26T07:12:05.428+0000] {processor.py:156} INFO - Started process (PID=272) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:12:05.437+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:12:05.438+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:12:05.438+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:12:19.182+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:12:19.224+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:12:19.223+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:12:19.257+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:12:19.257+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:12:19.286+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.863 seconds
+[2022-12-26T07:12:49.625+0000] {processor.py:156} INFO - Started process (PID=358) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:12:49.626+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:12:49.626+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:12:49.626+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:13:01.848+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:13:01.890+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:13:01.889+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:13:01.923+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:13:01.923+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:13:01.950+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.329 seconds
+[2022-12-26T07:13:32.604+0000] {processor.py:156} INFO - Started process (PID=444) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:13:32.605+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:13:32.606+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:13:32.606+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:13:43.793+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:13:43.837+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:13:43.836+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:13:43.870+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:13:43.870+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:13:43.904+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.305 seconds
+[2022-12-26T07:14:14.427+0000] {processor.py:156} INFO - Started process (PID=553) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:14:14.437+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:14:14.438+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:14:14.437+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:14:24.698+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:14:24.766+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:14:24.765+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:14:24.820+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:14:24.819+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:14:24.859+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.435 seconds
+[2022-12-26T07:14:55.243+0000] {processor.py:156} INFO - Started process (PID=641) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:14:55.244+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:14:55.245+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:14:55.245+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:15:06.079+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:15:06.137+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:15:06.136+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:15:06.186+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:15:06.186+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:15:06.232+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.992 seconds
+[2022-12-26T07:15:36.622+0000] {processor.py:156} INFO - Started process (PID=727) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:15:36.623+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:15:36.624+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:15:36.624+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:15:50.178+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:15:50.217+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:15:50.216+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:15:50.248+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:15:50.248+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:15:50.283+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.664 seconds
+[2022-12-26T07:16:20.542+0000] {processor.py:156} INFO - Started process (PID=834) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:16:20.545+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:16:20.545+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:16:20.545+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:16:32.470+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:16:32.521+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:16:32.518+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:16:32.597+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:16:32.596+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:16:32.634+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.096 seconds
+[2022-12-26T07:17:02.844+0000] {processor.py:156} INFO - Started process (PID=922) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:02.854+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:17:02.856+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:02.855+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:13.768+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:13.819+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:13.818+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:17:13.852+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:13.852+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:17:13.879+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.039 seconds
+[2022-12-26T07:17:44.102+0000] {processor.py:156} INFO - Started process (PID=1008) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:44.103+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:17:44.104+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:44.104+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:55.141+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:17:55.195+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:55.194+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:17:55.228+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:17:55.228+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:17:55.263+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.165 seconds
+[2022-12-26T07:18:08.404+0000] {processor.py:156} INFO - Started process (PID=1073) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:08.414+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:18:08.414+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:08.414+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:18.362+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:18.439+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:18.438+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:18:18.466+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:18.466+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:18:18.493+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.095 seconds
+[2022-12-26T07:18:49.156+0000] {processor.py:156} INFO - Started process (PID=1159) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:49.157+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:18:49.158+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:49.158+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:59.307+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:18:59.354+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:59.353+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:18:59.395+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:18:59.394+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:18:59.438+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.285 seconds
+[2022-12-26T07:19:30.398+0000] {processor.py:156} INFO - Started process (PID=1266) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:19:30.399+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:19:30.401+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:19:30.401+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:19:42.762+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:19:42.803+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:19:42.802+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:19:42.836+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:19:42.836+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:19:42.870+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.476 seconds
+[2022-12-26T07:20:13.135+0000] {processor.py:156} INFO - Started process (PID=1354) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:20:13.145+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:20:13.146+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:20:13.145+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:20:23.428+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:20:23.476+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:20:23.475+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:20:23.503+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:20:23.503+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:20:23.527+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.396 seconds
+[2022-12-26T07:20:54.364+0000] {processor.py:156} INFO - Started process (PID=1440) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:20:54.375+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:20:54.376+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:20:54.376+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:21:03.347+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:21:03.394+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:21:03.394+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:21:03.427+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:21:03.427+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:21:03.466+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.106 seconds
+[2022-12-26T07:21:33.711+0000] {processor.py:156} INFO - Started process (PID=1526) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:21:33.721+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:21:33.721+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:21:33.721+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:21:44.528+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:21:44.567+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:21:44.566+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:21:44.598+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:21:44.598+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:21:44.627+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.920 seconds
+[2022-12-26T07:22:15.416+0000] {processor.py:156} INFO - Started process (PID=1635) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:15.426+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:22:15.427+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:22:15.427+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:26.953+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:26.987+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:22:26.986+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:22:27.013+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:22:27.013+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:22:27.049+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.636 seconds
+[2022-12-26T07:22:57.467+0000] {processor.py:156} INFO - Started process (PID=1722) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:57.468+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:22:57.469+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:22:57.469+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:57.533+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:22:57.531+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bertopic_autopik_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bertopic_autopik_airflow.py", line 19, in <module>
+    from functions import  data, training_bertopic, training_vectorizers
+  File "/opt/airflow/dags/functions/data.py", line 283
+    data = data.astype({'pik_id' :'int', 'link_id':'int', 'task_clear_bento >> task_db_data_fetching >> task_data_process >> task_save_processed_data >> task_train_bertopic >> task_train_vectorizers >> task_create_bento >> task_serve_bentoml
+                                                                                                                                                                                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2022-12-26T07:22:57.533+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:22:57.560+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 0.097 seconds
+[2022-12-26T07:23:27.812+0000] {processor.py:156} INFO - Started process (PID=1787) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:27.813+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:23:27.813+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:23:27.813+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:27.874+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:23:27.873+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bertopic_autopik_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bertopic_autopik_airflow.py", line 19, in <module>
+    from functions import  data, training_bertopic, training_vectorizers
+  File "/opt/airflow/dags/functions/data.py", line 283
+    data = data.astype({'pik_id' :'int', 'link_id':'int', 'task_clear_bento >> task_db_data_fetching >> task_data_process >> task_save_processed_data >> task_train_bertopic >> task_train_vectorizers >> task_create_bento >> task_serve_bentoml
+                                                                                                                                                                                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2022-12-26T07:23:27.875+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:27.902+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 0.093 seconds
+[2022-12-26T07:23:58.112+0000] {processor.py:156} INFO - Started process (PID=1831) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:58.113+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:23:58.114+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:23:58.114+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:58.192+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:23:58.191+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bertopic_autopik_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bertopic_autopik_airflow.py", line 19, in <module>
+    from functions import  data, training_bertopic, training_vectorizers
+  File "/opt/airflow/dags/functions/data.py", line 283
+    data = data.astype({'pik_id' :'int', 'link_id':'int', 'task_clear_bento >> task_db_data_fetching >> task_data_process >> task_save_processed_data >> task_train_bertopic >> task_train_vectorizers >> task_create_bento >> task_serve_bentoml
+                                                                                                                                                                                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2022-12-26T07:23:58.193+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:23:58.229+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 0.121 seconds
+[2022-12-26T07:24:28.363+0000] {processor.py:156} INFO - Started process (PID=1875) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:24:28.365+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:24:28.365+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:24:28.365+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:24:28.426+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:24:28.425+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bertopic_autopik_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bertopic_autopik_airflow.py", line 19, in <module>
+    from functions import  data, training_bertopic, training_vectorizers
+  File "/opt/airflow/dags/functions/data.py", line 283
+    data = data.astype({'pik_id' :'int', 'link_id':'int', 'task_clear_bento >> task_db_data_fetching >> task_data_process >> task_save_processed_data >> task_train_bertopic >> task_train_vectorizers >> task_create_bento >> task_serve_bentoml
+                                                                                                                                                                                                                                                ^
+SyntaxError: EOL while scanning string literal
+[2022-12-26T07:24:28.427+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:24:28.449+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 0.091 seconds
+[2022-12-26T07:24:59.130+0000] {processor.py:156} INFO - Started process (PID=1941) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:24:59.141+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:24:59.142+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:24:59.141+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:25:09.853+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:25:09.929+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:25:09.928+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:25:09.955+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:25:09.955+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:25:09.992+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.865 seconds
+[2022-12-26T07:25:40.233+0000] {processor.py:156} INFO - Started process (PID=2029) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:25:40.234+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:25:40.235+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:25:40.234+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:25:56.431+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:25:56.496+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:25:56.495+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:25:56.549+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:25:56.548+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:25:56.606+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 16.378 seconds
+[2022-12-26T07:26:26.807+0000] {processor.py:156} INFO - Started process (PID=2136) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:26:26.808+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:26:26.809+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:26:26.809+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:26:37.124+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:26:37.163+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:26:37.161+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:26:37.190+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:26:37.190+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:26:37.222+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.418 seconds
+[2022-12-26T07:27:07.517+0000] {processor.py:156} INFO - Started process (PID=2222) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:27:07.527+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:27:07.528+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:27:07.528+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:27:20.289+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:27:20.340+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:27:20.339+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:27:20.386+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:27:20.386+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:27:20.417+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.904 seconds
+[2022-12-26T07:27:50.518+0000] {processor.py:156} INFO - Started process (PID=2310) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:27:50.520+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:27:50.520+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:27:50.520+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:28:02.561+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:28:02.602+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:28:02.601+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:28:02.634+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:28:02.634+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:28:02.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.160 seconds
+[2022-12-26T07:28:32.839+0000] {processor.py:156} INFO - Started process (PID=2417) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:28:32.850+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:28:32.851+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:28:32.851+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:28:43.631+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:28:43.680+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:28:43.679+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:28:43.717+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:28:43.717+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:28:43.757+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.925 seconds
+[2022-12-26T07:29:14.254+0000] {processor.py:156} INFO - Started process (PID=2503) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:29:14.264+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:29:14.264+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:29:14.264+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:29:24.627+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:29:24.680+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:29:24.678+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:29:24.710+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:29:24.709+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:29:24.743+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.492 seconds
+[2022-12-26T07:29:55.200+0000] {processor.py:156} INFO - Started process (PID=2591) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:29:55.202+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:29:55.202+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:29:55.202+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:30:06.403+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:30:06.446+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:30:06.445+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:30:06.479+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:30:06.479+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:30:06.510+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.316 seconds
+[2022-12-26T07:30:36.584+0000] {processor.py:156} INFO - Started process (PID=2698) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:30:36.586+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:30:36.586+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:30:36.586+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:30:47.942+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:30:47.992+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:30:47.991+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:30:48.032+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:30:48.031+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:30:48.061+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.480 seconds
+[2022-12-26T07:31:18.265+0000] {processor.py:156} INFO - Started process (PID=2784) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:31:18.275+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:31:18.276+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:31:18.276+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:31:30.238+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:31:30.275+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:31:30.275+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:31:30.303+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:31:30.303+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:31:30.340+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.079 seconds
+[2022-12-26T07:32:01.152+0000] {processor.py:156} INFO - Started process (PID=2872) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:01.162+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:32:01.163+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:01.163+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:11.775+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:11.823+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:11.823+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:32:11.863+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:11.863+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:32:11.901+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.754 seconds
+[2022-12-26T07:32:42.484+0000] {processor.py:156} INFO - Started process (PID=2979) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:42.494+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:32:42.495+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:42.495+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:54.223+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:32:54.292+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:54.289+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:32:54.328+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:32:54.328+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:32:54.365+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.883 seconds
+[2022-12-26T07:33:24.490+0000] {processor.py:156} INFO - Started process (PID=3066) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:33:24.491+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:33:24.492+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:33:24.491+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:33:34.350+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:33:34.389+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:33:34.388+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:33:34.416+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:33:34.416+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:33:34.450+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.964 seconds
+[2022-12-26T07:34:04.701+0000] {processor.py:156} INFO - Started process (PID=3153) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:04.702+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:34:04.703+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:04.703+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:15.582+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:15.632+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:15.631+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:34:15.666+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:15.666+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:34:15.695+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.997 seconds
+[2022-12-26T07:34:46.584+0000] {processor.py:156} INFO - Started process (PID=3260) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:46.594+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:34:46.595+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:46.595+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:58.303+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:34:58.355+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:58.354+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:34:58.401+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:34:58.401+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:34:58.433+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.855 seconds
+[2022-12-26T07:35:28.949+0000] {processor.py:156} INFO - Started process (PID=3348) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:35:28.959+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:35:28.960+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:35:28.960+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:35:39.480+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:35:39.518+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:35:39.517+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:35:39.562+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:35:39.561+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:35:39.592+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.649 seconds
+[2022-12-26T07:36:09.826+0000] {processor.py:156} INFO - Started process (PID=3434) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:36:09.836+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:36:09.837+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:36:09.837+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:36:20.424+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:36:20.463+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:36:20.462+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:36:20.502+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:36:20.501+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:36:20.544+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.722 seconds
+[2022-12-26T07:36:51.072+0000] {processor.py:156} INFO - Started process (PID=3541) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:36:51.073+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:36:51.074+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:36:51.074+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:37:01.365+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:37:01.407+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:37:01.406+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:37:01.438+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:37:01.438+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:37:01.470+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.401 seconds
+[2022-12-26T07:37:31.642+0000] {processor.py:156} INFO - Started process (PID=3627) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:37:31.643+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:37:31.644+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:37:31.644+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:37:42.875+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:37:42.928+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:37:42.927+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:37:42.967+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:37:42.967+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:37:43.008+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.372 seconds
+[2022-12-26T07:38:13.171+0000] {processor.py:156} INFO - Started process (PID=3715) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:38:13.181+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:38:13.182+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:38:13.182+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:38:24.258+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:38:24.320+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:38:24.320+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:38:24.367+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:38:24.367+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:38:24.405+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.238 seconds
+[2022-12-26T07:38:54.745+0000] {processor.py:156} INFO - Started process (PID=3822) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:38:54.746+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:38:54.746+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:38:54.746+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:39:06.435+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:39:06.485+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:39:06.483+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:39:06.522+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:39:06.522+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:39:06.570+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.829 seconds
+[2022-12-26T07:39:36.906+0000] {processor.py:156} INFO - Started process (PID=3910) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:39:36.907+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:39:36.908+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:39:36.908+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:39:48.255+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:39:48.303+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:39:48.302+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:39:48.336+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:39:48.336+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:39:48.363+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.460 seconds
+[2022-12-26T07:40:18.580+0000] {processor.py:156} INFO - Started process (PID=3998) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:40:18.581+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:40:18.581+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:40:18.581+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:40:29.320+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:40:29.361+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:40:29.360+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:40:29.391+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:40:29.391+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:40:29.430+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.854 seconds
+[2022-12-26T07:41:00.430+0000] {processor.py:156} INFO - Started process (PID=4105) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:00.441+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:41:00.441+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:00.441+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:11.481+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:11.521+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:11.520+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:41:11.552+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:11.552+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:41:11.588+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.162 seconds
+[2022-12-26T07:41:42.387+0000] {processor.py:156} INFO - Started process (PID=4191) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:42.397+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:41:42.398+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:42.398+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:53.604+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:41:53.665+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:53.664+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:41:53.704+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:41:53.704+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:41:53.747+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.364 seconds
+[2022-12-26T07:42:24.095+0000] {processor.py:156} INFO - Started process (PID=4279) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:42:24.105+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:42:24.106+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:42:24.106+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:42:36.202+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:42:36.292+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:42:36.288+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:42:36.367+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:42:36.367+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:42:36.413+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.322 seconds
+[2022-12-26T07:43:06.924+0000] {processor.py:156} INFO - Started process (PID=4386) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:43:06.934+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:43:06.935+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:43:06.935+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:43:20.582+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:43:20.627+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:43:20.626+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:43:20.666+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:43:20.665+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:43:20.704+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.784 seconds
+[2022-12-26T07:43:51.374+0000] {processor.py:156} INFO - Started process (PID=4473) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:43:51.375+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:43:51.376+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:43:51.376+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:44:05.333+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:44:05.433+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:44:05.431+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:44:05.513+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:44:05.513+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:44:05.599+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 14.229 seconds
+[2022-12-26T07:44:36.348+0000] {processor.py:156} INFO - Started process (PID=4560) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:44:36.358+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:44:36.359+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:44:36.359+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:44:49.352+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:44:49.396+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:44:49.395+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:44:49.431+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:44:49.430+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:44:49.461+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.117 seconds
+[2022-12-26T07:45:19.532+0000] {processor.py:156} INFO - Started process (PID=4667) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:45:19.533+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:45:19.534+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:45:19.534+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:45:33.552+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:45:33.599+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:45:33.596+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:45:33.634+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:45:33.634+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:45:33.670+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 14.142 seconds
+[2022-12-26T07:46:04.366+0000] {processor.py:156} INFO - Started process (PID=4755) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:04.367+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:46:04.368+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:04.368+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:17.451+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:17.495+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:17.494+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:46:17.528+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:17.528+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:46:17.554+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 13.193 seconds
+[2022-12-26T07:46:47.895+0000] {processor.py:156} INFO - Started process (PID=4842) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:47.905+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:46:47.906+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:47.906+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:58.654+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:46:58.727+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:58.725+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:46:58.789+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:46:58.789+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:46:58.834+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.942 seconds
+[2022-12-26T07:47:29.260+0000] {processor.py:156} INFO - Started process (PID=4949) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:47:29.268+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:47:29.268+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:47:29.268+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:47:41.117+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:47:41.162+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:47:41.162+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:47:41.194+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:47:41.193+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:47:41.221+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.965 seconds
+[2022-12-26T07:48:11.507+0000] {processor.py:156} INFO - Started process (PID=5035) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:48:11.517+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:48:11.518+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:48:11.518+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:48:23.545+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:48:23.583+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:48:23.582+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:48:23.631+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:48:23.631+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:48:23.660+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.157 seconds
+[2022-12-26T07:48:53.844+0000] {processor.py:156} INFO - Started process (PID=5132) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:48:53.845+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:48:53.846+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:48:53.846+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:49:05.541+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:49:05.584+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:49:05.581+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:49:05.620+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:49:05.619+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:49:05.658+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.818 seconds
+[2022-12-26T07:49:36.021+0000] {processor.py:156} INFO - Started process (PID=5218) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:49:36.032+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:49:36.033+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:49:36.032+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:49:48.082+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:49:48.132+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:49:48.131+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:49:48.172+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:49:48.172+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:49:48.199+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.181 seconds
+[2022-12-26T07:50:18.696+0000] {processor.py:156} INFO - Started process (PID=5304) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:50:18.706+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:50:18.707+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:50:18.707+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:50:31.008+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:50:31.052+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:50:31.051+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:50:31.091+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:50:31.090+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:50:31.124+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.432 seconds
+[2022-12-26T07:51:01.942+0000] {processor.py:156} INFO - Started process (PID=5391) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:01.944+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:51:01.945+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:01.945+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:12.875+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:12.926+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:12.925+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:51:12.965+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:12.964+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:51:13.003+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.064 seconds
+[2022-12-26T07:51:43.339+0000] {processor.py:156} INFO - Started process (PID=5478) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:43.340+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:51:43.340+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:43.340+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:53.531+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:51:53.567+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:53.565+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:51:53.595+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:51:53.595+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:51:53.629+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.293 seconds
+[2022-12-26T07:52:24.601+0000] {processor.py:156} INFO - Started process (PID=5564) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:52:24.602+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:52:24.603+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:52:24.603+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:52:36.565+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:52:36.615+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:52:36.614+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:52:36.650+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:52:36.649+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:52:36.686+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.089 seconds
+[2022-12-26T07:53:06.835+0000] {processor.py:156} INFO - Started process (PID=5650) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:06.845+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:53:06.846+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:06.846+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:17.895+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:17.938+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:17.937+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:53:17.976+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:17.976+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:53:18.017+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.186 seconds
+[2022-12-26T07:53:48.559+0000] {processor.py:156} INFO - Started process (PID=5738) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:48.569+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:53:48.570+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:48.570+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:58.222+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:53:58.260+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:58.259+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:53:58.289+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:53:58.289+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:53:58.323+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.767 seconds
+[2022-12-26T07:54:28.443+0000] {processor.py:156} INFO - Started process (PID=5845) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:54:28.453+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:54:28.454+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:54:28.453+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:54:40.201+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:54:40.256+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:54:40.255+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:54:40.304+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:54:40.303+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:54:40.343+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.903 seconds
+[2022-12-26T07:55:11.210+0000] {processor.py:156} INFO - Started process (PID=5931) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:55:11.219+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:55:11.220+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:55:11.220+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:55:22.656+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:55:22.703+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:55:22.700+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:55:22.743+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:55:22.743+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:55:22.787+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.581 seconds
+[2022-12-26T07:55:52.916+0000] {processor.py:156} INFO - Started process (PID=6019) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:55:52.925+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:55:52.927+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:55:52.926+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:56:02.757+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:56:02.794+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:56:02.793+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:56:02.822+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:56:02.822+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:56:02.855+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 9.943 seconds
+[2022-12-26T07:56:33.164+0000] {processor.py:156} INFO - Started process (PID=6126) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:56:33.173+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:56:33.174+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:56:33.174+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:56:43.923+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:56:43.970+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:56:43.969+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:56:44.007+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:56:44.007+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:56:44.057+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.897 seconds
+[2022-12-26T07:57:14.289+0000] {processor.py:156} INFO - Started process (PID=6216) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:57:14.299+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:57:14.300+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:57:14.300+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:57:25.791+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:57:25.829+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:57:25.829+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:57:25.856+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:57:25.856+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:57:25.890+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.608 seconds
+[2022-12-26T07:57:56.150+0000] {processor.py:156} INFO - Started process (PID=6302) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:57:56.160+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:57:56.161+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:57:56.161+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:58:08.918+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:58:08.997+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:58:08.995+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:58:09.057+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:58:09.057+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:58:09.121+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.974 seconds
+[2022-12-26T07:58:39.559+0000] {processor.py:156} INFO - Started process (PID=6409) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:58:39.560+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:58:39.561+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:58:39.561+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:58:50.895+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:58:50.936+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:58:50.935+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:58:50.967+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:58:50.966+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:58:51.001+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.446 seconds
+[2022-12-26T07:59:21.211+0000] {processor.py:156} INFO - Started process (PID=6497) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:59:21.212+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T07:59:21.213+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:59:21.212+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:59:33.930+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T07:59:33.971+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:59:33.970+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T07:59:34.001+0000] {logging_mixin.py:117} INFO - [2022-12-26T07:59:34.001+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T06:00:00+00:00, run_after=2022-12-26T08:00:00+00:00
+[2022-12-26T07:59:34.035+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.828 seconds
+[2022-12-26T08:00:04.286+0000] {processor.py:156} INFO - Started process (PID=6583) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:00:04.288+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:00:04.289+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:00:04.288+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:00:16.225+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:00:16.281+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:00:16.280+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:00:16.322+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:00:16.322+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:00:16.377+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.099 seconds
+[2022-12-26T08:00:46.646+0000] {processor.py:156} INFO - Started process (PID=6690) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:00:46.657+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:00:46.659+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:00:46.658+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:01:01.010+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:01:01.051+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:01:01.050+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:01:01.085+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:01:01.085+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:01:01.112+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 14.475 seconds
+[2022-12-26T08:01:31.264+0000] {processor.py:156} INFO - Started process (PID=6778) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:01:31.268+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:01:31.272+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:01:31.270+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:01:46.631+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:01:46.702+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:01:46.699+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:01:46.768+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:01:46.768+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:01:46.811+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 15.560 seconds
+[2022-12-26T08:02:17.355+0000] {processor.py:156} INFO - Started process (PID=6864) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:02:17.367+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:02:17.368+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:02:17.368+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:02:33.053+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:02:33.102+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:02:33.101+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:02:33.143+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:02:33.143+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:02:33.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 15.839 seconds
+[2022-12-26T08:03:03.306+0000] {processor.py:156} INFO - Started process (PID=6973) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:03:03.317+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:03:03.319+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:03:03.318+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:03:27.910+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:03:27.994+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:03:27.993+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:03:28.074+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:03:28.073+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:03:28.148+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 24.854 seconds
+[2022-12-26T08:03:58.702+0000] {processor.py:156} INFO - Started process (PID=7059) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:03:58.705+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:03:58.706+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:03:58.706+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:04:15.800+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:04:15.898+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:04:15.897+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:04:15.971+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:04:15.970+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:04:16.034+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 17.341 seconds
+[2022-12-26T08:04:46.240+0000] {processor.py:156} INFO - Started process (PID=7168) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:04:46.244+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:04:46.246+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:04:46.245+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:05:04.258+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:05:04.351+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:05:04.344+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:05:04.439+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:05:04.438+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:05:04.515+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 18.282 seconds
+[2022-12-26T08:05:34.699+0000] {processor.py:156} INFO - Started process (PID=7254) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:05:34.700+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:05:34.701+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:05:34.701+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:05:46.865+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:05:46.932+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:05:46.931+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:05:46.991+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:05:46.991+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:05:47.033+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.338 seconds
+[2022-12-26T08:06:17.163+0000] {processor.py:156} INFO - Started process (PID=7363) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:06:17.165+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:06:17.167+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:06:17.167+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:06:28.412+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:06:28.463+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:06:28.462+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:06:28.506+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:06:28.506+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:06:28.539+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.384 seconds
+[2022-12-26T08:06:59.003+0000] {processor.py:156} INFO - Started process (PID=7449) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:06:59.004+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:06:59.005+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:06:59.004+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:07:10.401+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:07:10.473+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:07:10.472+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:07:10.541+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:07:10.540+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:07:10.580+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.580 seconds
+[2022-12-26T08:07:41.171+0000] {processor.py:156} INFO - Started process (PID=7535) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:07:41.172+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:07:41.172+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:07:41.172+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:07:53.456+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:07:53.493+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:07:53.491+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:07:53.523+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:07:53.523+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:07:53.548+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.381 seconds
+[2022-12-26T08:08:23.834+0000] {processor.py:156} INFO - Started process (PID=7644) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:08:23.836+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:08:23.837+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:08:23.837+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:08:36.533+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:08:36.586+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:08:36.585+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:08:36.628+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:08:36.628+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:08:36.658+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 12.832 seconds
+[2022-12-26T08:09:06.780+0000] {processor.py:156} INFO - Started process (PID=7730) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:06.781+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:09:06.781+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:06.781+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:18.253+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:18.301+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:18.300+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:09:18.336+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:18.336+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:09:18.376+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 11.600 seconds
+[2022-12-26T08:09:49.070+0000] {processor.py:156} INFO - Started process (PID=7817) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:49.071+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:09:49.071+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:49.071+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:59.477+0000] {processor.py:768} INFO - DAG(s) dict_keys(['bertopic_autopik_airflow']) retrieved from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:09:59.527+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:59.526+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-12-26T08:09:59.567+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:09:59.567+0000] {dag.py:3324} INFO - Setting next_dagrun for bertopic_autopik_airflow to 2022-12-26T08:00:00+00:00, run_after=2022-12-26T10:00:00+00:00
+[2022-12-26T08:09:59.610+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bertopic_autopik_airflow.py took 10.544 seconds
+[2022-12-26T08:10:29.713+0000] {processor.py:156} INFO - Started process (PID=7925) to work on /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:10:29.723+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bertopic_autopik_airflow.py for tasks to queue
+[2022-12-26T08:10:29.724+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:10:29.724+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bertopic_autopik_airflow.py
+[2022-12-26T08:10:31.969+0000] {logging_mixin.py:117} INFO - [2022-12-26T08:10:31.969+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...

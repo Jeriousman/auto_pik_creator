@@ -1,0 +1,61 @@
+[2022-12-26T04:36:22.441+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.clear_bento scheduled__2022-12-26T02:00:00+00:00 [queued]>
+[2022-12-26T04:36:22.473+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.clear_bento scheduled__2022-12-26T02:00:00+00:00 [queued]>
+[2022-12-26T04:36:22.473+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-26T04:36:22.474+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-26T04:36:22.474+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-26T04:36:22.505+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): clear_bento> on 2022-12-26 02:00:00+00:00
+[2022-12-26T04:36:22.517+0000] {standard_task_runner.py:54} INFO - Started process 78 to run task
+[2022-12-26T04:36:22.521+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'clear_bento', 'scheduled__2022-12-26T02:00:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpombx1ddt']
+[2022-12-26T04:36:22.522+0000] {standard_task_runner.py:83} INFO - Job 2: Subtask clear_bento
+[2022-12-26T04:36:22.523+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-26T04:36:52.525+0000] {timeout.py:68} ERROR - Process timed out, PID: 78
+[2022-12-26T04:36:52.526+0000] {dagbag.py:330} ERROR - Failed to import: /opt/***/dags/bertopic_autopik_***.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bertopic_autopik_airflow.py", line 19, in <module>
+    from functions import  data, training_bertopic, training_vectorizers
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/__init__.py", line 1, in <module>
+    from bertopic._bertopic import BERTopic
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 34, in <module>
+    from bertopic.backend._utils import select_backend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/__init__.py", line 2, in <module>
+    from ._word_doc import WordDocEmbedder
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_word_doc.py", line 4, in <module>
+    from bertopic.backend._utils import select_backend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_utils.py", line 3, in <module>
+    from ._hftransformers import HFTransformerBackend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_hftransformers.py", line 7, in <module>
+    from transformers.pipelines import Pipeline
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/pipelines/__init__.py", line 85, in <module>
+    from .zero_shot_object_detection import ZeroShotObjectDetectionPipeline
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/pipelines/zero_shot_object_detection.py", line 15, in <module>
+    from transformers.modeling_outputs import BaseModelOutput
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/modeling_outputs.py", line 436, in <module>
+    class Seq2SeqMoEModelOutput(ModelOutput):
+  File "/usr/local/lib/python3.8/dataclasses.py", line 1019, in dataclass
+    return wrap(cls)
+  File "/usr/local/lib/python3.8/dataclasses.py", line 1011, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash, frozen)
+  File "/usr/local/lib/python3.8/dataclasses.py", line 942, in _process_class
+    _set_new_attribute(cls, '__repr__', _repr_fn(flds, globals))
+  File "/usr/local/lib/python3.8/dataclasses.py", line 538, in _repr_fn
+    fn = _create_fn('__repr__',
+  File "/usr/local/lib/python3.8/dataclasses.py", line 398, in _create_fn
+    exec(txt, globals, ns)
+  File "<string>", line 1, in <module>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/***/dags/bertopic_autopik_***.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://***.apache.org/docs/apache-***/2.4.0/best-practices.html#top-level-python-code
+* https://***.apache.org/docs/apache-***/2.4.0/best-practices.html#reducing-dag-complexity, PID: 78
+[2022-12-26T04:36:52.528+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 2 for task clear_bento (Dag 'bertopic_autopik_airflow' could not be found; either it does not exist or it failed to parse.; 78)
+[2022-12-26T04:36:52.601+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-12-26T04:36:52.650+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

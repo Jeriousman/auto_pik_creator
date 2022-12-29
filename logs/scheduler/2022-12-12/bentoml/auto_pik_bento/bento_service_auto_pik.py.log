@@ -1,0 +1,705 @@
+[2022-12-12T07:50:40.708+0000] {processor.py:156} INFO - Started process (PID=39) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T07:50:40.710+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T07:50:40.711+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:50:40.711+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T07:51:05.822+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:51:05.818+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T07:51:05.823+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T07:51:05.879+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 25.179 seconds
+[2022-12-12T07:51:36.496+0000] {processor.py:156} INFO - Started process (PID=74) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T07:51:36.498+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T07:51:36.500+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:51:36.500+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:07:17.456+0000] {processor.py:156} INFO - Started process (PID=39) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:07:17.458+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:07:17.459+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:07:17.459+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:07:40.560+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:07:40.557+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:07:40.561+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:07:40.603+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 23.165 seconds
+[2022-12-12T08:08:11.164+0000] {processor.py:156} INFO - Started process (PID=74) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:08:11.166+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:08:11.167+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:08:11.167+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:08:21.899+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:08:21.897+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:08:21.900+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:08:21.940+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.783 seconds
+[2022-12-12T08:08:52.169+0000] {processor.py:156} INFO - Started process (PID=109) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:08:52.171+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:08:52.172+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:08:52.172+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:09:04.477+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:09:04.475+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:09:04.478+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:09:04.509+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 12.346 seconds
+[2022-12-12T08:09:34.847+0000] {processor.py:156} INFO - Started process (PID=146) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:09:34.849+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:09:34.850+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:09:34.850+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:09:44.865+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:09:44.864+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:09:44.866+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:09:44.893+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.052 seconds
+[2022-12-12T08:10:15.039+0000] {processor.py:156} INFO - Started process (PID=181) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:10:15.041+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:10:15.042+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:10:15.042+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:10:25.056+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:10:25.054+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:10:25.057+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:10:25.088+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.055 seconds
+[2022-12-12T08:10:55.341+0000] {processor.py:156} INFO - Started process (PID=216) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:10:55.343+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:10:55.345+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:10:55.345+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:11:06.774+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:11:06.772+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:11:06.775+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:11:06.815+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.480 seconds
+[2022-12-12T08:11:37.265+0000] {processor.py:156} INFO - Started process (PID=251) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:11:37.266+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:11:37.268+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:11:37.267+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:11:47.744+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:11:47.743+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:11:47.746+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:11:47.791+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.532 seconds
+[2022-12-12T08:12:18.136+0000] {processor.py:156} INFO - Started process (PID=288) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:12:18.138+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:12:18.139+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:12:18.139+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:12:29.825+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:12:29.817+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:12:29.828+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:12:29.894+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.765 seconds
+[2022-12-12T08:13:01.034+0000] {processor.py:156} INFO - Started process (PID=323) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:01.036+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:13:01.038+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:01.037+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:14.458+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:14.456+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:13:14.458+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:14.488+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 13.461 seconds
+[2022-12-12T08:13:45.174+0000] {processor.py:156} INFO - Started process (PID=358) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:45.178+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:13:45.181+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:45.180+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:57.554+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:57.551+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:13:57.555+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:13:57.609+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 12.452 seconds
+[2022-12-12T08:14:27.861+0000] {processor.py:156} INFO - Started process (PID=393) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:14:27.863+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:14:27.864+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:14:27.864+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:14:38.336+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:14:38.334+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:14:38.337+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:14:38.375+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.520 seconds
+[2022-12-12T08:15:08.700+0000] {processor.py:156} INFO - Started process (PID=428) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:15:08.702+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:15:08.704+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:15:08.703+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:15:18.921+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:15:18.919+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:15:18.922+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:15:18.961+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.266 seconds
+[2022-12-12T08:15:49.247+0000] {processor.py:156} INFO - Started process (PID=463) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:15:49.250+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:15:49.251+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:15:49.251+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:16:00.727+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:16:00.724+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:16:00.728+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:16:00.771+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.533 seconds
+[2022-12-12T08:16:31.179+0000] {processor.py:156} INFO - Started process (PID=498) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:16:31.181+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:16:31.182+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:16:31.182+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:16:44.289+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:16:44.284+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:16:44.291+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:16:44.342+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 13.168 seconds
+[2022-12-12T08:17:14.814+0000] {processor.py:156} INFO - Started process (PID=533) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:17:14.816+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:17:14.817+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:17:14.817+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:17:24.981+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:17:24.978+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:17:24.982+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:17:25.022+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.215 seconds
+[2022-12-12T08:17:55.379+0000] {processor.py:156} INFO - Started process (PID=568) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:17:55.381+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T08:17:55.383+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:17:55.382+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:18:05.924+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:18:05.917+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T08:18:05.927+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T08:18:05.984+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.611 seconds
+[2022-12-12T09:46:54.340+0000] {processor.py:156} INFO - Started process (PID=39) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:46:54.343+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T09:46:54.345+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:46:54.344+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:47:13.341+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:13.339+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T09:47:13.342+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:47:13.376+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 19.042 seconds
+[2022-12-12T09:47:43.734+0000] {processor.py:156} INFO - Started process (PID=74) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:47:43.736+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T09:47:43.737+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:43.737+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:47:55.597+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:55.593+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T09:47:55.598+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T09:47:55.635+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.906 seconds
+[2022-12-12T10:00:17.437+0000] {processor.py:156} INFO - Started process (PID=49) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:00:17.438+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:00:17.439+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:00:17.438+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:00:37.884+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:00:37.882+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:00:37.884+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:00:37.916+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 20.483 seconds
+[2022-12-12T10:01:08.507+0000] {processor.py:156} INFO - Started process (PID=114) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:08.508+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:01:08.508+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:08.508+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:19.198+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:19.197+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:01:19.199+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:19.221+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.718 seconds
+[2022-12-12T10:01:49.611+0000] {processor.py:156} INFO - Started process (PID=179) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:49.611+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:01:49.612+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:49.612+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:59.565+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:59.564+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:01:59.565+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:01:59.597+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 9.990 seconds
+[2022-12-12T10:02:29.910+0000] {processor.py:156} INFO - Started process (PID=246) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:02:29.920+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:02:29.921+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:02:29.920+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:02:39.818+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:02:39.817+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:02:39.818+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:02:39.850+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 9.944 seconds
+[2022-12-12T10:03:10.103+0000] {processor.py:156} INFO - Started process (PID=311) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:03:10.104+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:03:10.106+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:03:10.106+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:03:19.932+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:03:19.931+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:03:19.932+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:03:19.967+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 9.868 seconds
+[2022-12-12T10:03:50.343+0000] {processor.py:156} INFO - Started process (PID=376) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:03:50.353+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:03:50.354+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:03:50.354+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:04:01.072+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:04:01.070+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:04:01.073+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:04:01.130+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 10.791 seconds
+[2022-12-12T10:04:31.587+0000] {processor.py:156} INFO - Started process (PID=441) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:04:31.599+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:04:31.601+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:04:31.600+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:04:42.768+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:04:42.767+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:04:42.769+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:04:42.802+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.222 seconds
+[2022-12-12T10:05:12.969+0000] {processor.py:156} INFO - Started process (PID=508) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:05:12.979+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-12T10:05:12.980+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:05:12.979+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:05:24.591+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:05:24.590+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 39, in <module>
+    df = pd.read_csv("/opt/airflow/dags/data/processed_data.csv")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 678, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 932, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1216, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/data/processed_data.csv'
+[2022-12-12T10:05:24.592+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-12T10:05:24.625+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 11.660 seconds

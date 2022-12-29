@@ -1,0 +1,303 @@
+[2022-12-12T07:50:40.717+0000] {processor.py:156} INFO - Started process (PID=40) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T07:50:40.719+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T07:50:40.721+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:50:40.721+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T07:51:07.494+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T07:51:07.514+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 26.805 seconds
+[2022-12-12T07:51:37.856+0000] {processor.py:156} INFO - Started process (PID=75) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T07:51:37.858+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T07:51:37.859+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:51:37.859+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T07:51:49.183+0000] {logging_mixin.py:117} INFO - [2022-12-12T07:51:49.183+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2022-12-12T08:07:17.452+0000] {processor.py:156} INFO - Started process (PID=40) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:07:17.454+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:07:17.455+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:07:17.455+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:07:42.756+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:07:42.779+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 25.333 seconds
+[2022-12-12T08:08:13.203+0000] {processor.py:156} INFO - Started process (PID=84) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:08:13.206+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:08:13.209+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:08:13.209+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:08:23.834+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:08:23.857+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.671 seconds
+[2022-12-12T08:08:54.486+0000] {processor.py:156} INFO - Started process (PID=121) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:08:54.488+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:08:54.489+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:08:54.489+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:09:06.309+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:09:06.334+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.854 seconds
+[2022-12-12T08:09:36.871+0000] {processor.py:156} INFO - Started process (PID=156) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:09:36.872+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:09:36.874+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:09:36.874+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:09:46.856+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:09:46.875+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.011 seconds
+[2022-12-12T08:10:17.051+0000] {processor.py:156} INFO - Started process (PID=191) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:10:17.053+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:10:17.054+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:10:17.054+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:10:27.019+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:10:27.039+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 9.993 seconds
+[2022-12-12T08:10:57.429+0000] {processor.py:156} INFO - Started process (PID=217) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:10:57.432+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:10:57.435+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:10:57.434+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:11:07.945+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:11:07.972+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.552 seconds
+[2022-12-12T08:11:38.680+0000] {processor.py:156} INFO - Started process (PID=254) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:11:38.682+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:11:38.683+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:11:38.683+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:11:48.773+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:11:48.794+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.121 seconds
+[2022-12-12T08:12:19.145+0000] {processor.py:156} INFO - Started process (PID=289) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:12:19.147+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:12:19.148+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:12:19.148+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:12:31.738+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:12:31.763+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 12.623 seconds
+[2022-12-12T08:13:02.053+0000] {processor.py:156} INFO - Started process (PID=324) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:02.057+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:13:02.061+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:02.060+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:15.123+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:15.147+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 13.103 seconds
+[2022-12-12T08:13:45.475+0000] {processor.py:156} INFO - Started process (PID=359) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:45.479+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:13:45.481+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:13:45.480+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:57.570+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:13:57.601+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 12.134 seconds
+[2022-12-12T08:14:27.868+0000] {processor.py:156} INFO - Started process (PID=394) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:14:27.870+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:14:27.871+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:14:27.871+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:14:38.341+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:14:38.360+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.498 seconds
+[2022-12-12T08:15:08.707+0000] {processor.py:156} INFO - Started process (PID=429) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:15:08.709+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:15:08.710+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:15:08.710+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:15:18.980+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:15:19.001+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.299 seconds
+[2022-12-12T08:15:49.254+0000] {processor.py:156} INFO - Started process (PID=464) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:15:49.256+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:15:49.257+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:15:49.257+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:16:00.488+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:16:00.520+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.272 seconds
+[2022-12-12T08:16:31.184+0000] {processor.py:156} INFO - Started process (PID=499) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:16:31.185+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:16:31.187+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:16:31.186+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:16:44.390+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:16:44.425+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 13.246 seconds
+[2022-12-12T08:17:14.822+0000] {processor.py:156} INFO - Started process (PID=534) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:17:14.824+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:17:14.826+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:17:14.825+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:17:24.770+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:17:24.800+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 9.985 seconds
+[2022-12-12T08:17:55.384+0000] {processor.py:156} INFO - Started process (PID=569) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:17:55.385+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T08:17:55.386+0000] {logging_mixin.py:117} INFO - [2022-12-12T08:17:55.386+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:18:05.888+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T08:18:05.942+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.564 seconds
+[2022-12-12T09:46:54.354+0000] {processor.py:156} INFO - Started process (PID=40) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:46:54.357+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T09:46:54.360+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:46:54.360+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:47:14.953+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:47:14.983+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 20.637 seconds
+[2022-12-12T09:47:45.784+0000] {processor.py:156} INFO - Started process (PID=84) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:47:45.794+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T09:47:45.796+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:45.796+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:47:57.385+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:57.385+0000] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2022-12-12T09:47:57.391+0000] {logging_mixin.py:117} INFO - [2022-12-12T09:47:57.389+0000] {dagbag.py:330} ERROR - Failed to import: /opt/airflow/dags/functions/training_bertopic.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/functions/training_bertopic.py", line 12, in <module>
+    from bertopic import BERTopic
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/__init__.py", line 1, in <module>
+    from bertopic._bertopic import BERTopic
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/_bertopic.py", line 34, in <module>
+    from bertopic.backend._utils import select_backend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/__init__.py", line 2, in <module>
+    from ._word_doc import WordDocEmbedder
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_word_doc.py", line 4, in <module>
+    from bertopic.backend._utils import select_backend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_utils.py", line 2, in <module>
+    from ._sentencetransformers import SentenceTransformerBackend
+  File "/home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_sentencetransformers.py", line 3, in <module>
+    from sentence_transformers import SentenceTransformer
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/__init__.py", line 3, in <module>
+    from .datasets import SentencesDataset, ParallelSentencesDataset
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/datasets/__init__.py", line 1, in <module>
+    from .DenoisingAutoEncoderDataset import DenoisingAutoEncoderDataset
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/datasets/DenoisingAutoEncoderDataset.py", line 1, in <module>
+    from torch.utils.data import Dataset
+  File "/home/airflow/.local/lib/python3.8/site-packages/torch/__init__.py", line 192, in <module>
+    from torch._C import *  # noqa: F403
+RuntimeError: SystemExit: 0
+
+At:
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(470): _exit_gracefully
+  /usr/local/lib/python3.8/posixpath.py(169): islink
+  /usr/local/lib/python3.8/posixpath.py(425): _joinrealpath
+  /usr/local/lib/python3.8/posixpath.py(391): realpath
+  /usr/local/lib/python3.8/inspect.py(754): getmodule
+  /usr/local/lib/python3.8/inspect.py(792): findsource
+  /usr/local/lib/python3.8/inspect.py(1479): getframeinfo
+  /usr/local/lib/python3.8/inspect.py(1503): getouterframes
+  /usr/local/lib/python3.8/inspect.py(1526): stack
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(466): _exit_gracefully
+  /usr/local/lib/python3.8/posixpath.py(169): islink
+  /usr/local/lib/python3.8/posixpath.py(425): _joinrealpath
+  /usr/local/lib/python3.8/posixpath.py(391): realpath
+  /usr/local/lib/python3.8/inspect.py(754): getmodule
+  /usr/local/lib/python3.8/inspect.py(792): findsource
+  /usr/local/lib/python3.8/inspect.py(1479): getframeinfo
+  /usr/local/lib/python3.8/inspect.py(1503): getouterframes
+  /usr/local/lib/python3.8/inspect.py(1526): stack
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(466): _exit_gracefully
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(1166): create_module
+  <frozen importlib._bootstrap>(556): module_from_spec
+  <frozen importlib._bootstrap>(657): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/torch/__init__.py(192): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap>(961): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap>(961): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/datasets/DenoisingAutoEncoderDataset.py(1): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/datasets/__init__.py(1): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/__init__.py(3): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_sentencetransformers.py(3): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_utils.py(2): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/_word_doc.py(4): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/backend/__init__.py(2): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap>(961): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/_bertopic.py(34): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /home/airflow/.local/lib/python3.8/site-packages/bertopic/__init__.py(1): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  <frozen importlib._bootstrap>(671): _load_unlocked
+  <frozen importlib._bootstrap>(975): _find_and_load_unlocked
+  <frozen importlib._bootstrap>(991): _find_and_load
+  /opt/airflow/dags/functions/training_bertopic.py(12): <module>
+  <frozen importlib._bootstrap>(219): _call_with_frames_removed
+  <frozen importlib._bootstrap_external>(843): exec_module
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py(326): parse
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py(356): _load_modules_from_file
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py(291): process_file
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py(539): collect_dags
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py(130): __init__
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py(761): process_file
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py(75): wrapper
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py(158): _handle_dag_file_processing
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py(177): _run_file_processor
+  /usr/local/lib/python3.8/multiprocessing/process.py(108): run
+  /usr/local/lib/python3.8/multiprocessing/process.py(315): _bootstrap
+  /usr/local/lib/python3.8/multiprocessing/popen_fork.py(75): _launch
+  /usr/local/lib/python3.8/multiprocessing/popen_fork.py(19): __init__
+  /usr/local/lib/python3.8/multiprocessing/context.py(277): _Popen
+  /usr/local/lib/python3.8/multiprocessing/process.py(121): start
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py(212): start
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(1039): start_new_processes
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(614): _run_parsing_loop
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(489): start
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(257): _run_processor_manager
+  /usr/local/lib/python3.8/multiprocessing/process.py(108): run
+  /usr/local/lib/python3.8/multiprocessing/process.py(315): _bootstrap
+  /usr/local/lib/python3.8/multiprocessing/popen_fork.py(75): _launch
+  /usr/local/lib/python3.8/multiprocessing/popen_fork.py(19): __init__
+  /usr/local/lib/python3.8/multiprocessing/context.py(277): _Popen
+  /usr/local/lib/python3.8/multiprocessing/process.py(121): start
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/manager.py(161): start
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/scheduler_job.py(742): _execute
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/jobs/base_job.py(247): run
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/cli/commands/scheduler_command.py(50): _run_scheduler_job
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/cli/commands/scheduler_command.py(85): scheduler
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/utils/cli.py(99): wrapper
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/cli/cli_parser.py(52): command
+  /home/airflow/.local/lib/python3.8/site-packages/airflow/__main__.py(39): main
+  /home/airflow/.local/bin/airflow(8): <module>
+[2022-12-12T09:47:57.392+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T09:47:57.424+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.647 seconds
+[2022-12-12T10:00:17.452+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:00:17.454+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:00:17.456+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:00:17.456+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:00:39.708+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:00:39.726+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 22.280 seconds
+[2022-12-12T10:01:09.884+0000] {processor.py:156} INFO - Started process (PID=115) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:01:09.893+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:01:09.894+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:09.894+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:01:20.381+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:01:20.400+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.520 seconds
+[2022-12-12T10:01:50.498+0000] {processor.py:156} INFO - Started process (PID=182) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:01:50.504+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:01:50.504+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:01:50.504+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:02:00.444+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:02:00.458+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 9.964 seconds
+[2022-12-12T10:02:30.923+0000] {processor.py:156} INFO - Started process (PID=247) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:02:30.925+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:02:30.926+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:02:30.926+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:02:40.955+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:02:40.972+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 10.052 seconds
+[2022-12-12T10:03:11.116+0000] {processor.py:156} INFO - Started process (PID=312) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:03:11.126+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:03:11.127+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:03:11.126+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:03:21.083+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:03:21.099+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 9.987 seconds
+[2022-12-12T10:03:51.356+0000] {processor.py:156} INFO - Started process (PID=377) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:03:51.357+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:03:51.358+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:03:51.357+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:04:02.366+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:04:02.423+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.070 seconds
+[2022-12-12T10:04:32.604+0000] {processor.py:156} INFO - Started process (PID=442) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:04:32.614+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:04:32.615+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:04:32.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:04:43.640+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:04:43.675+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.075 seconds
+[2022-12-12T10:05:13.997+0000] {processor.py:156} INFO - Started process (PID=509) to work on /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:05:14.008+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/functions/training_bertopic.py for tasks to queue
+[2022-12-12T10:05:14.009+0000] {logging_mixin.py:117} INFO - [2022-12-12T10:05:14.008+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:05:25.640+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/functions/training_bertopic.py
+[2022-12-12T10:05:25.665+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/functions/training_bertopic.py took 11.678 seconds

@@ -1,0 +1,11 @@
+service: "bento_service_auto_pik.py:svc"
+labels:
+include:
+- "*.py"
+python:
+  packages:
+  #- scikit-learn
+  #- pandas
+  requirements_txt: "./requirements.txt"
+  
+

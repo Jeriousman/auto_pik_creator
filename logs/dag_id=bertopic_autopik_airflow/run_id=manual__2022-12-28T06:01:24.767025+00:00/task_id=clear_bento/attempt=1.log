@@ -1,0 +1,35 @@
+[2022-12-28T06:01:25.868+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.clear_bento manual__2022-12-28T06:01:24.767025+00:00 [queued]>
+[2022-12-28T06:01:25.899+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.clear_bento manual__2022-12-28T06:01:24.767025+00:00 [queued]>
+[2022-12-28T06:01:25.900+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T06:01:25.900+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T06:01:25.900+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T06:01:25.928+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): clear_bento> on 2022-12-28 06:01:24.767025+00:00
+[2022-12-28T06:01:25.944+0000] {standard_task_runner.py:54} INFO - Started process 452 to run task
+[2022-12-28T06:01:25.949+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'clear_bento', 'manual__2022-12-28T06:01:24.767025+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpxcu4umgw']
+[2022-12-28T06:01:25.950+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask clear_bento
+[2022-12-28T06:01:25.952+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T06:01:39.810+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T06:01:39.930+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.clear_bento manual__2022-12-28T06:01:24.767025+00:00 [running]> on host 01844bb5aa3c
+[2022-12-28T06:01:40.112+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=clear_bento
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T06:01:24.767025+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-28T06:01:24.767025+00:00
+[2022-12-28T06:01:40.115+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28T06:01:40.116+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n                bentoml delete bertopic_autopik_bento --yes; bentoml models delete bertopic_autopik_model --yes; echo "Job continued"  \n            ']
+[2022-12-28T06:01:40.184+0000] {subprocess.py:86} INFO - Output:
+[2022-12-28T06:01:41.757+0000] {subprocess.py:93} INFO - Error: [bentoml-cli] `delete` failed: no Bentos with name 'bertopic_autopik_bento' found
+[2022-12-28T06:01:43.453+0000] {subprocess.py:93} INFO - Error: [models] `delete` failed: no Models with name 'bertopic_autopik_model' found
+[2022-12-28T06:01:43.584+0000] {subprocess.py:93} INFO - Job continued
+[2022-12-28T06:01:43.585+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-28T06:01:43.626+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=bertopic_autopik_***, task_id=clear_bento, execution_date=20221228T060124, start_date=20221228T060125, end_date=20221228T060143
+[2022-12-28T06:01:44.080+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-28T06:01:44.149+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

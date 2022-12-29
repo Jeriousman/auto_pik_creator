@@ -1,0 +1,168 @@
+[2022-12-09T07:54:26.313+0000] {processor.py:153} INFO - Started process (PID=49) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:26.314+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:54:26.315+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:26.315+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:27.950+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:27.950+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:54:27.951+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:27.976+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.667 seconds
+[2022-12-09T07:54:58.104+0000] {processor.py:153} INFO - Started process (PID=56) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:58.105+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:54:58.106+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:58.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:59.250+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:54:59.249+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:54:59.250+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:54:59.282+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.181 seconds
+[2022-12-09T07:55:29.358+0000] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:55:29.368+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:55:29.369+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:55:29.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:55:30.570+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:55:30.569+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:55:30.570+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:55:30.600+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.245 seconds
+[2022-12-09T07:56:01.338+0000] {processor.py:153} INFO - Started process (PID=70) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:01.348+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:56:01.350+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:01.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:02.682+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:02.681+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:56:02.682+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:02.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.373 seconds
+[2022-12-09T07:56:33.136+0000] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:33.137+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:56:33.138+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:33.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:34.410+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:56:34.410+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:56:34.411+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:56:34.435+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.302 seconds
+[2022-12-09T07:57:04.898+0000] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:04.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:57:04.909+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:04.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:06.437+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:06.436+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:57:06.437+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:06.459+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.568 seconds
+[2022-12-09T07:57:36.784+0000] {processor.py:153} INFO - Started process (PID=97) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:36.794+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:57:36.794+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:36.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:38.214+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:57:38.214+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:57:38.215+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:57:38.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.464 seconds
+[2022-12-09T07:58:08.751+0000] {processor.py:153} INFO - Started process (PID=104) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:08.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:58:08.754+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:08.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:10.276+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:10.276+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:58:10.277+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:10.298+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.550 seconds
+[2022-12-09T07:58:12.357+0000] {processor.py:153} INFO - Started process (PID=105) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:12.358+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:58:12.359+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:12.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:13.755+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:13.755+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:58:13.756+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:13.786+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.433 seconds
+[2022-12-09T07:58:44.670+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:44.680+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:58:44.681+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:44.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:46.084+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:58:46.083+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:58:46.084+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:58:46.117+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.452 seconds
+[2022-12-09T07:59:16.882+0000] {processor.py:153} INFO - Started process (PID=119) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:16.893+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:59:16.894+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:16.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:18.365+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:18.365+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 12, in <module>
+    from transformers import BertTokenizer, BertModel, XLMRobertaTokenizer, XLMRobertaModel, AutoTokenizer, AutoModel, Trainer, TrainingArguments
+ModuleNotFoundError: No module named 'transformers'
+[2022-12-09T07:59:18.366+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:18.404+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 1.525 seconds
+[2022-12-09T07:59:22.003+0000] {processor.py:153} INFO - Started process (PID=120) to work on /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:22.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py for tasks to queue
+[2022-12-09T07:59:22.005+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:22.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:25.173+0000] {logging_mixin.py:137} INFO - [2022-12-09T07:59:25.171+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py", line 33, in <module>
+    from bertopic import BERTopic
+ModuleNotFoundError: No module named 'bertopic'
+[2022-12-09T07:59:25.174+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py
+[2022-12-09T07:59:25.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/bentoml/auto_pik_bento/bento_service_auto_pik.py took 3.208 seconds

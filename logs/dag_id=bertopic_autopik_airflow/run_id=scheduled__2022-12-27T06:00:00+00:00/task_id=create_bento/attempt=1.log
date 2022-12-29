@@ -1,0 +1,212 @@
+[2022-12-27T08:07:56.387+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T08:07:56.401+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T08:07:56.401+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T08:07:56.401+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-27T08:07:56.401+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T08:07:56.420+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): create_bento> on 2022-12-27 06:00:00+00:00
+[2022-12-27T08:07:56.427+0000] {standard_task_runner.py:54} INFO - Started process 1696 to run task
+[2022-12-27T08:07:56.431+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'create_bento', 'scheduled__2022-12-27T06:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpvzo8idnf']
+[2022-12-27T08:07:56.431+0000] {standard_task_runner.py:83} INFO - Job 40: Subtask create_bento
+[2022-12-27T08:07:56.432+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-27T08:08:09.778+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-27T08:08:09.853+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [running]> on host c4e9f2234c2b
+[2022-12-27T08:08:09.947+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=create_bento
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-27T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-27T06:00:00+00:00
+[2022-12-27T08:08:09.948+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-27T08:08:09.948+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            cd /opt/***/dags/bentoml/auto_pik_bento; bentoml build\n        ']
+[2022-12-27T08:08:09.984+0000] {subprocess.py:86} INFO - Output:
+[2022-12-27T08:08:23.288+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-27T08:08:23.288+0000] {subprocess.py:93} INFO -   File "/home/***/.local/bin/bentoml", line 8, in <module>
+[2022-12-27T08:08:23.288+0000] {subprocess.py:93} INFO -     sys.exit(cli())
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -     return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2022-12-27T08:08:23.289+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 268, in wrapper
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 239, in wrapper
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -     return_value = func(*args, **kwargs)
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 196, in wrapper
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/bentos.py", line 276, in build
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -     build_bentofile(bentofile, build_ctx=build_ctx, version=version)
+[2022-12-27T08:08:23.290+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/bentos.py", line 391, in build_bentofile
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -     bento = Bento.create(
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/bento/bento.py", line 181, in create
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:08:23.291+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bentoml/auto_pik_bento/./bento_service_auto_pik.py", line 55, in <module>
+[2022-12-27T08:08:23.292+0000] {subprocess.py:93} INFO -     with open('data.pickle', 'rb') as f:
+[2022-12-27T08:08:23.293+0000] {subprocess.py:93} INFO - FileNotFoundError: [Errno 2] No such file or directory: 'data.pickle'
+[2022-12-27T08:08:24.636+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2022-12-27T08:08:24.670+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-12-27T08:08:24.686+0000] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=bertopic_autopik_***, task_id=create_bento, execution_date=20221227T060000, start_date=20221227T080756, end_date=20221227T080824
+[2022-12-27T08:08:25.076+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 40 for task create_bento (Bash command failed. The command returned a non-zero exit code 1.; 1696)
+[2022-12-27T08:08:25.183+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-12-27T08:08:25.254+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-27T08:23:10.246+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T08:23:10.260+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T08:23:10.260+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T08:23:10.260+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-27T08:23:10.260+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T08:23:10.278+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): create_bento> on 2022-12-27 06:00:00+00:00
+[2022-12-27T08:23:10.286+0000] {standard_task_runner.py:54} INFO - Started process 290 to run task
+[2022-12-27T08:23:10.290+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'create_bento', 'scheduled__2022-12-27T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmp32c_crz3']
+[2022-12-27T08:23:10.290+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask create_bento
+[2022-12-27T08:23:10.291+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-27T08:23:22.487+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-27T08:23:22.549+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [running]> on host 2492a182aa87
+[2022-12-27T08:23:22.642+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=create_bento
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-27T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-27T06:00:00+00:00
+[2022-12-27T08:23:22.643+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-27T08:23:22.644+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            cd /opt/***/dags/bentoml/auto_pik_bento; bentoml build\n        ']
+[2022-12-27T08:23:22.680+0000] {subprocess.py:86} INFO - Output:
+[2022-12-27T08:23:55.114+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -   File "/home/***/.local/bin/bentoml", line 8, in <module>
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -     sys.exit(cli())
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -     rv = self.invoke(ctx)
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1657, in invoke
+[2022-12-27T08:23:55.115+0000] {subprocess.py:93} INFO -     return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -     return ctx.invoke(self.callback, **ctx.params)
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -     return __callback(*args, **kwargs)
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 268, in wrapper
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 239, in wrapper
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -     return_value = func(*args, **kwargs)
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/utils.py", line 196, in wrapper
+[2022-12-27T08:23:55.116+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml_cli/bentos.py", line 276, in build
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -     build_bentofile(bentofile, build_ctx=build_ctx, version=version)
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/bentos.py", line 391, in build_bentofile
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -     bento = Bento.create(
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/bento/bento.py", line 181, in create
+[2022-12-27T08:23:55.117+0000] {subprocess.py:93} INFO -     svc = import_service(
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/simple_di/__init__.py", line 139, in _
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -     return func(*_inject_args(bind.args), **_inject_kwargs(bind.kwargs))
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/loader.py", line 137, in import_service
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -     module = importlib.import_module(module_name, package=working_dir)
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-12-27T08:23:55.118+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/bentoml/auto_pik_bento/./bento_service_auto_pik.py", line 259, in <module>
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -     def predict(user_id) -> dict:
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/service.py", line 178, in decorator
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -     add_inference_api(self, func, input, output, name, doc, route)
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/service.py", line 48, in add_inference_api
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -     api = InferenceAPI(
+[2022-12-27T08:23:55.119+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/bentoml/_internal/service/inference_api.py", line 94, in __init__
+[2022-12-27T08:23:55.120+0000] {subprocess.py:93} INFO -     raise ValueError(
+[2022-12-27T08:23:55.120+0000] {subprocess.py:93} INFO - ValueError: expected API function to have arguments (user_id, user_data, [context]), got (user_id)
+[2022-12-27T08:23:56.358+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2022-12-27T08:23:56.372+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-12-27T08:23:56.376+0000] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=bertopic_autopik_***, task_id=create_bento, execution_date=20221227T060000, start_date=20221227T082310, end_date=20221227T082356
+[2022-12-27T08:23:56.739+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 7 for task create_bento (Bash command failed. The command returned a non-zero exit code 1.; 290)
+[2022-12-27T08:23:56.842+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-12-27T08:23:56.880+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-27T09:16:00.870+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T09:16:00.888+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [queued]>
+[2022-12-27T09:16:00.888+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T09:16:00.888+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-27T09:16:00.889+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-27T09:16:00.910+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): create_bento> on 2022-12-27 06:00:00+00:00
+[2022-12-27T09:16:00.921+0000] {standard_task_runner.py:54} INFO - Started process 298 to run task
+[2022-12-27T09:16:00.926+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'create_bento', 'scheduled__2022-12-27T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmp9gaqmtm0']
+[2022-12-27T09:16:00.926+0000] {standard_task_runner.py:83} INFO - Job 7: Subtask create_bento
+[2022-12-27T09:16:00.927+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-27T09:16:16.046+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-27T09:16:16.122+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.create_bento scheduled__2022-12-27T06:00:00+00:00 [running]> on host a0f3911d9707
+[2022-12-27T09:16:16.228+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=create_bento
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-27T06:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-27T06:00:00+00:00
+[2022-12-27T09:16:16.229+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-27T09:16:16.230+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            cd /opt/***/dags/bentoml/auto_pik_bento; bentoml build\n        ']
+[2022-12-27T09:16:16.293+0000] {subprocess.py:86} INFO - Output:
+[2022-12-27T09:16:46.225+0000] {subprocess.py:93} INFO - Building BentoML service "bertopic_autopik_model:f6pfzhufy6magasc" from build context "/opt/***/dags/bentoml/auto_pik_bento".
+[2022-12-27T09:16:46.635+0000] {subprocess.py:93} INFO - 
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ██████╗░███████╗███╗░░██╗████████╗░█████╗░███╗░░░███╗██╗░░░░░
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ██╔══██╗██╔════╝████╗░██║╚══██╔══╝██╔══██╗████╗░████║██║░░░░░
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ██████╦╝█████╗░░██╔██╗██║░░░██║░░░██║░░██║██╔████╔██║██║░░░░░
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ██╔══██╗██╔══╝░░██║╚████║░░░██║░░░██║░░██║██║╚██╔╝██║██║░░░░░
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ██████╦╝███████╗██║░╚███║░░░██║░░░╚█████╔╝██║░╚═╝░██║███████╗
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - ╚═════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝╚══════╝
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - 
+[2022-12-27T09:16:46.636+0000] {subprocess.py:93} INFO - Successfully built Bento(tag="bertopic_autopik_model:f6pfzhufy6magasc").
+[2022-12-27T09:16:48.555+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-27T09:16:48.626+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=bertopic_autopik_***, task_id=create_bento, execution_date=20221227T060000, start_date=20221227T091600, end_date=20221227T091648
+[2022-12-27T09:16:49.079+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-27T09:16:49.108+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

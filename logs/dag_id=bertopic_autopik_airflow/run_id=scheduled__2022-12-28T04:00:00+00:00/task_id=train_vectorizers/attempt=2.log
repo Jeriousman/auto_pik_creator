@@ -1,0 +1,11 @@
+[2022-12-28T06:01:49.854+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.train_vectorizers scheduled__2022-12-28T04:00:00+00:00 [success]> on host 01844bb5aa3c
+[2022-12-28T06:01:50.027+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=train_vectorizers
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T04:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T04:00:00+00:00
+[2022-12-28T06:01:54.794+0000] {logging_mixin.py:117} INFO - It is pandas.Series type
+[2022-12-28T06:01:55.492+0000] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.

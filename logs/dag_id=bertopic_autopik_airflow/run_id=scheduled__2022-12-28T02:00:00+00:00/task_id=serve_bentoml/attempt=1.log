@@ -1,0 +1,39 @@
+[2022-12-28T05:12:23.644+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:12:23.657+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:12:23.658+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:12:23.658+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T05:12:23.658+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:12:23.678+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): serve_bentoml> on 2022-12-28 02:00:00+00:00
+[2022-12-28T05:12:23.684+0000] {standard_task_runner.py:54} INFO - Started process 340 to run task
+[2022-12-28T05:12:23.688+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'serve_bentoml', 'scheduled__2022-12-28T02:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmp1li_w8fj']
+[2022-12-28T05:12:23.689+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask serve_bentoml
+[2022-12-28T05:12:23.690+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T05:12:33.435+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T05:12:33.489+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.serve_bentoml scheduled__2022-12-28T02:00:00+00:00 [running]> on host ca161c6b800c
+[2022-12-28T05:12:33.557+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=serve_bentoml
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T02:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T02:00:00+00:00
+[2022-12-28T05:12:33.558+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-28T05:12:33.559+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', ' \n            fuser -k 7171/tcp; bentoml serve -p 7171 bertopic_autopik_bento:latest --production\n        ']
+[2022-12-28T05:12:33.588+0000] {subprocess.py:86} INFO - Output:
+[2022-12-28T05:13:00.541+0000] {subprocess.py:93} INFO - 2022-12-28T05:13:00+0000 [INFO] [cli] Environ for worker 0: set CUDA_VISIBLE_DEVICES to 0
+[2022-12-28T05:13:00.566+0000] {subprocess.py:93} INFO - 2022-12-28T05:13:00+0000 [INFO] [cli] Prometheus metrics for HTTP BentoServer from "bertopic_autopik_bento:latest" can be accessed at http://localhost:7171/metrics.
+[2022-12-28T05:13:02.203+0000] {subprocess.py:93} INFO - 2022-12-28T05:13:02+0000 [ERROR] [cli] Exception in callback <bound method Arbiter.manage_watchers of <circus.arbiter.Arbiter object at 0x7f83aa505d30>>
+[2022-12-28T05:13:02.203+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2022-12-28T05:13:02.204+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1126, in _run
+[2022-12-28T05:13:02.204+0000] {subprocess.py:93} INFO -     val = self.callback()
+[2022-12-28T05:13:02.204+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/circus/util.py", line 1038, in wrapper
+[2022-12-28T05:13:02.204+0000] {subprocess.py:93} INFO -     raise ConflictError("arbiter is already running %s command"
+[2022-12-28T05:13:02.204+0000] {subprocess.py:93} INFO - circus.exc.ConflictError: arbiter is already running arbiter_start_watchers command
+[2022-12-28T05:13:02.688+0000] {subprocess.py:93} INFO - 2022-12-28T05:13:02+0000 [INFO] [cli] Starting production HTTP BentoServer from "bertopic_autopik_bento:latest" listening on http://0.0.0.0:7171 (Press CTRL+C to quit)
+[2022-12-28T05:14:07.781+0000] {subprocess.py:93} INFO - /bin/bash: line 2:   363 Killed                  bentoml serve -p 7171 bertopic_autopik_bento:latest --production

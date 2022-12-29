@@ -1,0 +1,497 @@
+[2022-12-28T04:20:26.171+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T04:20:26.190+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T04:20:26.190+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T04:20:26.190+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T04:20:26.191+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T04:20:26.228+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): train_bertopic> on 2022-12-28 02:00:00+00:00
+[2022-12-28T04:20:26.240+0000] {standard_task_runner.py:54} INFO - Started process 139 to run task
+[2022-12-28T04:20:26.244+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'train_bertopic', 'scheduled__2022-12-28T02:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpcd1kh6za']
+[2022-12-28T04:20:26.245+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask train_bertopic
+[2022-12-28T04:20:26.246+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T04:20:37.827+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T04:20:37.913+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [running]> on host 2f95ab99defd
+[2022-12-28T04:20:37.992+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=train_bertopic
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T02:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T02:00:00+00:00
+[2022-12-28T04:20:41.798+0000] {SentenceTransformer.py:66} INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+[2022-12-28T04:20:44.273+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/968 [00:00<?, ?B/s]
+[2022-12-28T04:20:44.276+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 968/968 [00:00<00:00, 706kB/s]
+[2022-12-28T04:20:45.843+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/190 [00:00<?, ?B/s]
+[2022-12-28T04:20:45.847+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 190/190 [00:00<00:00, 79.2kB/s]
+[2022-12-28T04:20:47.528+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/3.79k [00:00<?, ?B/s]
+[2022-12-28T04:20:47.531+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 3.79k/3.79k [00:00<00:00, 2.53MB/s]
+[2022-12-28T04:20:49.087+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/645 [00:00<?, ?B/s]
+[2022-12-28T04:20:49.092+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 645/645 [00:00<00:00, 204kB/s]
+[2022-12-28T04:20:50.756+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/122 [00:00<?, ?B/s]
+[2022-12-28T04:20:50.758+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 122/122 [00:00<00:00, 75.2kB/s]
+[2022-12-28T04:20:51.597+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/471M [00:00<?, ?B/s]
+[2022-12-28T04:20:51.697+0000] {logging_mixin.py:117} WARNING - Downloading:   1%|1         | 5.10M/471M [00:00<00:09, 51.0MB/s]
+[2022-12-28T04:20:51.797+0000] {logging_mixin.py:117} WARNING - Downloading:   2%|2         | 11.0M/471M [00:00<00:08, 55.8MB/s]
+[2022-12-28T04:20:51.897+0000] {logging_mixin.py:117} WARNING - Downloading:   4%|3         | 16.9M/471M [00:00<00:07, 57.2MB/s]
+[2022-12-28T04:20:52.003+0000] {logging_mixin.py:117} WARNING - Downloading:   5%|4         | 22.6M/471M [00:00<00:07, 56.1MB/s]
+[2022-12-28T04:20:52.104+0000] {logging_mixin.py:117} WARNING - Downloading:   6%|6         | 28.2M/471M [00:00<00:07, 55.9MB/s]
+[2022-12-28T04:20:52.204+0000] {logging_mixin.py:117} WARNING - Downloading:   7%|7         | 34.1M/471M [00:00<00:07, 56.7MB/s]
+[2022-12-28T04:20:52.304+0000] {logging_mixin.py:117} WARNING - Downloading:   8%|8         | 39.9M/471M [00:00<00:07, 57.1MB/s]
+[2022-12-28T04:20:52.404+0000] {logging_mixin.py:117} WARNING - Downloading:  10%|9         | 45.8M/471M [00:00<00:07, 57.7MB/s]
+[2022-12-28T04:20:52.505+0000] {logging_mixin.py:117} WARNING - Downloading:  11%|#         | 51.5M/471M [00:00<00:07, 57.4MB/s]
+[2022-12-28T04:20:52.616+0000] {logging_mixin.py:117} WARNING - Downloading:  12%|#2        | 57.3M/471M [00:01<00:07, 55.6MB/s]
+[2022-12-28T04:20:52.716+0000] {logging_mixin.py:117} WARNING - Downloading:  13%|#3        | 63.4M/471M [00:01<00:07, 57.2MB/s]
+[2022-12-28T04:20:52.816+0000] {logging_mixin.py:117} WARNING - Downloading:  15%|#4        | 69.5M/471M [00:01<00:06, 58.5MB/s]
+[2022-12-28T04:20:52.924+0000] {logging_mixin.py:117} WARNING - Downloading:  16%|#6        | 75.4M/471M [00:01<00:06, 57.0MB/s]
+[2022-12-28T04:20:53.034+0000] {logging_mixin.py:117} WARNING - Downloading:  17%|#7        | 81.1M/471M [00:01<00:07, 55.5MB/s]
+[2022-12-28T04:20:53.141+0000] {logging_mixin.py:117} WARNING - Downloading:  18%|#8        | 86.6M/471M [00:01<00:07, 54.5MB/s]
+[2022-12-28T04:20:53.247+0000] {logging_mixin.py:117} WARNING - Downloading:  20%|#9        | 92.1M/471M [00:01<00:07, 53.5MB/s]
+[2022-12-28T04:20:53.347+0000] {logging_mixin.py:117} WARNING - Downloading:  21%|##        | 97.6M/471M [00:01<00:06, 54.0MB/s]
+[2022-12-28T04:20:53.454+0000] {logging_mixin.py:117} WARNING - Downloading:  22%|##1       | 103M/471M [00:01<00:06, 53.0MB/s] 
+[2022-12-28T04:20:53.563+0000] {logging_mixin.py:117} WARNING - Downloading:  23%|##3       | 108M/471M [00:01<00:07, 51.7MB/s]
+[2022-12-28T04:20:53.672+0000] {logging_mixin.py:117} WARNING - Downloading:  24%|##4       | 114M/471M [00:02<00:07, 50.3MB/s]
+[2022-12-28T04:20:53.773+0000] {logging_mixin.py:117} WARNING - Downloading:  25%|##5       | 119M/471M [00:02<00:06, 50.6MB/s]
+[2022-12-28T04:20:53.873+0000] {logging_mixin.py:117} WARNING - Downloading:  26%|##6       | 124M/471M [00:02<00:06, 52.9MB/s]
+[2022-12-28T04:20:53.973+0000] {logging_mixin.py:117} WARNING - Downloading:  28%|##7       | 130M/471M [00:02<00:06, 54.1MB/s]
+[2022-12-28T04:20:54.083+0000] {logging_mixin.py:117} WARNING - Downloading:  29%|##8       | 136M/471M [00:02<00:06, 52.5MB/s]
+[2022-12-28T04:20:54.196+0000] {logging_mixin.py:117} WARNING - Downloading:  30%|##9       | 141M/471M [00:02<00:06, 50.6MB/s]
+[2022-12-28T04:20:54.296+0000] {logging_mixin.py:117} WARNING - Downloading:  31%|###1      | 146M/471M [00:02<00:06, 51.2MB/s]
+[2022-12-28T04:20:54.396+0000] {logging_mixin.py:117} WARNING - Downloading:  32%|###2      | 152M/471M [00:02<00:06, 52.9MB/s]
+[2022-12-28T04:20:54.517+0000] {logging_mixin.py:117} WARNING - Downloading:  33%|###3      | 157M/471M [00:02<00:06, 49.8MB/s]
+[2022-12-28T04:20:54.627+0000] {logging_mixin.py:117} WARNING - Downloading:  34%|###4      | 162M/471M [00:03<00:06, 48.6MB/s]
+[2022-12-28T04:20:54.740+0000] {logging_mixin.py:117} WARNING - Downloading:  35%|###5      | 167M/471M [00:03<00:06, 47.1MB/s]
+[2022-12-28T04:20:54.844+0000] {logging_mixin.py:117} WARNING - Downloading:  37%|###6      | 172M/471M [00:03<00:06, 46.5MB/s]
+[2022-12-28T04:20:54.948+0000] {logging_mixin.py:117} WARNING - Downloading:  37%|###7      | 176M/471M [00:03<00:06, 46.0MB/s]
+[2022-12-28T04:20:55.049+0000] {logging_mixin.py:117} WARNING - Downloading:  39%|###8      | 182M/471M [00:03<00:06, 47.9MB/s]
+[2022-12-28T04:20:55.157+0000] {logging_mixin.py:117} WARNING - Downloading:  40%|###9      | 187M/471M [00:03<00:06, 46.8MB/s]
+[2022-12-28T04:20:55.257+0000] {logging_mixin.py:117} WARNING - Downloading:  41%|####      | 192M/471M [00:03<00:05, 49.2MB/s]
+[2022-12-28T04:20:55.367+0000] {logging_mixin.py:117} WARNING - Downloading:  42%|####1     | 197M/471M [00:03<00:05, 47.8MB/s]
+[2022-12-28T04:20:55.467+0000] {logging_mixin.py:117} WARNING - Downloading:  43%|####2     | 202M/471M [00:03<00:05, 49.0MB/s]
+[2022-12-28T04:20:55.567+0000] {logging_mixin.py:117} WARNING - Downloading:  44%|####4     | 207M/471M [00:03<00:05, 50.1MB/s]
+[2022-12-28T04:20:55.672+0000] {logging_mixin.py:117} WARNING - Downloading:  45%|####5     | 213M/471M [00:04<00:05, 49.5MB/s]
+[2022-12-28T04:20:55.772+0000] {logging_mixin.py:117} WARNING - Downloading:  46%|####6     | 218M/471M [00:04<00:04, 50.6MB/s]
+[2022-12-28T04:20:55.887+0000] {logging_mixin.py:117} WARNING - Downloading:  47%|####7     | 223M/471M [00:04<00:05, 48.6MB/s]
+[2022-12-28T04:20:56.003+0000] {logging_mixin.py:117} WARNING - Downloading:  48%|####8     | 228M/471M [00:04<00:05, 46.5MB/s]
+[2022-12-28T04:20:56.103+0000] {logging_mixin.py:117} WARNING - Downloading:  49%|####9     | 233M/471M [00:04<00:05, 46.7MB/s]
+[2022-12-28T04:20:56.206+0000] {logging_mixin.py:117} WARNING - Downloading:  50%|#####     | 237M/471M [00:04<00:05, 46.3MB/s]
+[2022-12-28T04:20:56.320+0000] {logging_mixin.py:117} WARNING - Downloading:  51%|#####1    | 242M/471M [00:04<00:05, 44.5MB/s]
+[2022-12-28T04:20:56.420+0000] {logging_mixin.py:117} WARNING - Downloading:  52%|#####2    | 246M/471M [00:04<00:04, 45.0MB/s]
+[2022-12-28T04:20:56.524+0000] {logging_mixin.py:117} WARNING - Downloading:  53%|#####3    | 251M/471M [00:04<00:04, 44.5MB/s]
+[2022-12-28T04:20:56.625+0000] {logging_mixin.py:117} WARNING - Downloading:  54%|#####4    | 256M/471M [00:05<00:04, 46.0MB/s]
+[2022-12-28T04:20:56.727+0000] {logging_mixin.py:117} WARNING - Downloading:  55%|#####5    | 261M/471M [00:05<00:04, 45.8MB/s]
+[2022-12-28T04:20:56.827+0000] {logging_mixin.py:117} WARNING - Downloading:  56%|#####6    | 265M/471M [00:05<00:04, 45.8MB/s]
+[2022-12-28T04:20:56.927+0000] {logging_mixin.py:117} WARNING - Downloading:  57%|#####7    | 270M/471M [00:05<00:04, 47.0MB/s]
+[2022-12-28T04:20:57.034+0000] {logging_mixin.py:117} WARNING - Downloading:  58%|#####8    | 275M/471M [00:05<00:04, 46.1MB/s]
+[2022-12-28T04:20:57.144+0000] {logging_mixin.py:117} WARNING - Downloading:  59%|#####9    | 280M/471M [00:05<00:04, 44.8MB/s]
+[2022-12-28T04:20:57.245+0000] {logging_mixin.py:117} WARNING - Downloading:  60%|######    | 284M/471M [00:05<00:04, 44.7MB/s]
+[2022-12-28T04:20:57.345+0000] {logging_mixin.py:117} WARNING - Downloading:  61%|######1   | 289M/471M [00:05<00:04, 45.1MB/s]
+[2022-12-28T04:20:57.445+0000] {logging_mixin.py:117} WARNING - Downloading:  62%|######2   | 293M/471M [00:05<00:03, 45.1MB/s]
+[2022-12-28T04:20:57.548+0000] {logging_mixin.py:117} WARNING - Downloading:  63%|######3   | 298M/471M [00:05<00:03, 44.7MB/s]
+[2022-12-28T04:20:57.648+0000] {logging_mixin.py:117} WARNING - Downloading:  64%|######4   | 303M/471M [00:06<00:03, 46.6MB/s]
+[2022-12-28T04:20:57.748+0000] {logging_mixin.py:117} WARNING - Downloading:  66%|######5   | 308M/471M [00:06<00:03, 49.7MB/s]
+[2022-12-28T04:20:57.848+0000] {logging_mixin.py:117} WARNING - Downloading:  67%|######6   | 313M/471M [00:06<00:03, 49.8MB/s]
+[2022-12-28T04:20:57.948+0000] {logging_mixin.py:117} WARNING - Downloading:  68%|######7   | 319M/471M [00:06<00:03, 50.6MB/s]
+[2022-12-28T04:20:58.064+0000] {logging_mixin.py:117} WARNING - Downloading:  69%|######8   | 324M/471M [00:06<00:03, 48.3MB/s]
+[2022-12-28T04:20:58.189+0000] {logging_mixin.py:117} WARNING - Downloading:  70%|######9   | 329M/471M [00:06<00:03, 45.1MB/s]
+[2022-12-28T04:20:58.301+0000] {logging_mixin.py:117} WARNING - Downloading:  71%|#######   | 333M/471M [00:06<00:03, 43.8MB/s]
+[2022-12-28T04:20:58.407+0000] {logging_mixin.py:117} WARNING - Downloading:  72%|#######1  | 338M/471M [00:06<00:03, 43.1MB/s]
+[2022-12-28T04:20:58.519+0000] {logging_mixin.py:117} WARNING - Downloading:  73%|#######2  | 342M/471M [00:06<00:03, 41.8MB/s]
+[2022-12-28T04:20:58.624+0000] {logging_mixin.py:117} WARNING - Downloading:  74%|#######3  | 346M/471M [00:07<00:03, 41.3MB/s]
+[2022-12-28T04:20:58.724+0000] {logging_mixin.py:117} WARNING - Downloading:  74%|#######4  | 350M/471M [00:07<00:02, 41.4MB/s]
+[2022-12-28T04:20:58.824+0000] {logging_mixin.py:117} WARNING - Downloading:  75%|#######5  | 355M/471M [00:07<00:02, 43.8MB/s]
+[2022-12-28T04:20:58.924+0000] {logging_mixin.py:117} WARNING - Downloading:  77%|#######6  | 361M/471M [00:07<00:02, 47.9MB/s]
+[2022-12-28T04:20:59.024+0000] {logging_mixin.py:117} WARNING - Downloading:  78%|#######7  | 366M/471M [00:07<00:02, 49.1MB/s]
+[2022-12-28T04:20:59.133+0000] {logging_mixin.py:117} WARNING - Downloading:  79%|#######8  | 371M/471M [00:07<00:02, 47.9MB/s]
+[2022-12-28T04:20:59.236+0000] {logging_mixin.py:117} WARNING - Downloading:  80%|#######9  | 376M/471M [00:07<00:01, 47.6MB/s]
+[2022-12-28T04:20:59.336+0000] {logging_mixin.py:117} WARNING - Downloading:  81%|########1 | 382M/471M [00:07<00:01, 51.8MB/s]
+[2022-12-28T04:20:59.436+0000] {logging_mixin.py:117} WARNING - Downloading:  82%|########2 | 388M/471M [00:07<00:01, 53.8MB/s]
+[2022-12-28T04:20:59.565+0000] {logging_mixin.py:117} WARNING - Downloading:  84%|########3 | 393M/471M [00:07<00:01, 49.6MB/s]
+[2022-12-28T04:20:59.680+0000] {logging_mixin.py:117} WARNING - Downloading:  85%|########4 | 398M/471M [00:08<00:01, 47.8MB/s]
+[2022-12-28T04:20:59.780+0000] {logging_mixin.py:117} WARNING - Downloading:  86%|########5 | 404M/471M [00:08<00:01, 48.4MB/s]
+[2022-12-28T04:20:59.880+0000] {logging_mixin.py:117} WARNING - Downloading:  87%|########6 | 409M/471M [00:08<00:01, 50.8MB/s]
+[2022-12-28T04:20:59.980+0000] {logging_mixin.py:117} WARNING - Downloading:  88%|########8 | 416M/471M [00:08<00:01, 54.4MB/s]
+[2022-12-28T04:21:00.080+0000] {logging_mixin.py:117} WARNING - Downloading:  89%|########9 | 421M/471M [00:08<00:00, 54.9MB/s]
+[2022-12-28T04:21:00.180+0000] {logging_mixin.py:117} WARNING - Downloading:  91%|######### | 427M/471M [00:08<00:00, 57.2MB/s]
+[2022-12-28T04:21:00.280+0000] {logging_mixin.py:117} WARNING - Downloading:  92%|#########2| 434M/471M [00:08<00:00, 58.6MB/s]
+[2022-12-28T04:21:00.380+0000] {logging_mixin.py:117} WARNING - Downloading:  93%|#########3| 440M/471M [00:08<00:00, 59.9MB/s]
+[2022-12-28T04:21:00.480+0000] {logging_mixin.py:117} WARNING - Downloading:  95%|#########4| 446M/471M [00:08<00:00, 60.5MB/s]
+[2022-12-28T04:21:00.586+0000] {logging_mixin.py:117} WARNING - Downloading:  96%|#########6| 452M/471M [00:08<00:00, 59.6MB/s]
+[2022-12-28T04:21:00.692+0000] {logging_mixin.py:117} WARNING - Downloading:  97%|#########7| 458M/471M [00:09<00:00, 58.6MB/s]
+[2022-12-28T04:21:00.796+0000] {logging_mixin.py:117} WARNING - Downloading:  99%|#########8| 464M/471M [00:09<00:00, 58.0MB/s]
+[2022-12-28T04:21:00.898+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|#########9| 470M/471M [00:09<00:00, 57.6MB/s]
+[2022-12-28T04:21:00.917+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 471M/471M [00:09<00:00, 50.5MB/s]
+[2022-12-28T04:21:02.483+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/53.0 [00:00<?, ?B/s]
+[2022-12-28T04:21:02.486+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 53.0/53.0 [00:00<00:00, 40.2kB/s]
+[2022-12-28T04:21:03.293+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/5.07M [00:00<?, ?B/s]
+[2022-12-28T04:21:03.395+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 5.07M/5.07M [00:00<00:00, 50.3MB/s]
+[2022-12-28T04:21:03.395+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 5.07M/5.07M [00:00<00:00, 49.7MB/s]
+[2022-12-28T04:21:04.989+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/239 [00:00<?, ?B/s]
+[2022-12-28T04:21:04.991+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 239/239 [00:00<00:00, 156kB/s]
+[2022-12-28T04:21:05.801+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/9.08M [00:00<?, ?B/s]
+[2022-12-28T04:21:05.902+0000] {logging_mixin.py:117} WARNING - Downloading:  53%|#####3    | 4.85M/9.08M [00:00<00:00, 48.5MB/s]
+[2022-12-28T04:21:05.993+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 9.08M/9.08M [00:00<00:00, 47.6MB/s]
+[2022-12-28T04:21:07.565+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/480 [00:00<?, ?B/s]
+[2022-12-28T04:21:07.569+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 480/480 [00:00<00:00, 261kB/s]
+[2022-12-28T04:21:08.429+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/14.8M [00:00<?, ?B/s]
+[2022-12-28T04:21:08.530+0000] {logging_mixin.py:117} WARNING - Downloading:  26%|##5       | 3.79M/14.8M [00:00<00:00, 37.9MB/s]
+[2022-12-28T04:21:08.630+0000] {logging_mixin.py:117} WARNING - Downloading:  54%|#####4    | 8.02M/14.8M [00:00<00:00, 40.5MB/s]
+[2022-12-28T04:21:08.738+0000] {logging_mixin.py:117} WARNING - Downloading:  82%|########1 | 12.1M/14.8M [00:00<00:00, 39.1MB/s]
+[2022-12-28T04:21:08.809+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 14.8M/14.8M [00:00<00:00, 39.0MB/s]
+[2022-12-28T04:21:10.394+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/229 [00:00<?, ?B/s]
+[2022-12-28T04:21:10.397+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 229/229 [00:00<00:00, 155kB/s]
+[2022-12-28T04:21:13.550+0000] {SentenceTransformer.py:105} INFO - Use pytorch device: cuda
+[2022-12-28T04:26:23.186+0000] {logging_mixin.py:117} INFO - the BERTopic took 341.4533939361572 seconds
+[2022-12-28T04:26:57.879+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+
+[2022-12-28T04:27:07.824+0000] {picklable.py:126} INFO - Using the default model signature for pickable model ({'__call__': ModelSignature(batchable=False, batch_dim=(0, 0), input_spec=None, output_spec=None)}) for model "bertopic_autopik_model".
+[2022-12-28T04:27:11.827+0000] {model.py:207} INFO - Successfully saved Model(tag="bertopic_autopik_model:4o222qegm6ijaasc")
+[2022-12-28T04:27:12.276+0000] {logging_mixin.py:117} INFO - Model saved: Model(tag="bertopic_autopik_model:4o222qegm6ijaasc")
+[2022-12-28T04:27:12.606+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-28T04:27:12.619+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=bertopic_autopik_***, task_id=train_bertopic, execution_date=20221228T020000, start_date=20221228T042026, end_date=20221228T042712
+[2022-12-28T04:27:13.570+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-28T04:27:13.631+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-12-28T05:04:18.153+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:04:18.197+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:04:18.198+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:04:18.198+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T05:04:18.198+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:04:18.233+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): train_bertopic> on 2022-12-28 02:00:00+00:00
+[2022-12-28T05:04:18.242+0000] {standard_task_runner.py:54} INFO - Started process 139 to run task
+[2022-12-28T05:04:18.246+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'train_bertopic', 'scheduled__2022-12-28T02:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpeyup75m5']
+[2022-12-28T05:04:18.247+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask train_bertopic
+[2022-12-28T05:04:18.248+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T05:04:29.376+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T05:04:29.449+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [running]> on host ca161c6b800c
+[2022-12-28T05:04:29.547+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=train_bertopic
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T02:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T02:00:00+00:00
+[2022-12-28T05:04:33.148+0000] {SentenceTransformer.py:66} INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+[2022-12-28T05:04:35.562+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/968 [00:00<?, ?B/s]
+[2022-12-28T05:04:35.565+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 968/968 [00:00<00:00, 506kB/s]
+[2022-12-28T05:04:37.154+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/190 [00:00<?, ?B/s]
+[2022-12-28T05:04:37.157+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 190/190 [00:00<00:00, 100kB/s]
+[2022-12-28T05:04:38.701+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/3.79k [00:00<?, ?B/s]
+[2022-12-28T05:04:38.703+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 3.79k/3.79k [00:00<00:00, 2.34MB/s]
+[2022-12-28T05:04:40.370+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/645 [00:00<?, ?B/s]
+[2022-12-28T05:04:40.374+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 645/645 [00:00<00:00, 372kB/s]
+[2022-12-28T05:04:41.946+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/122 [00:00<?, ?B/s]
+[2022-12-28T05:04:41.953+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 122/122 [00:00<00:00, 32.2kB/s]
+[2022-12-28T05:04:42.817+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/471M [00:00<?, ?B/s]
+[2022-12-28T05:04:42.918+0000] {logging_mixin.py:117} WARNING - Downloading:   1%|1         | 5.68M/471M [00:00<00:08, 56.8MB/s]
+[2022-12-28T05:04:43.018+0000] {logging_mixin.py:117} WARNING - Downloading:   3%|2         | 12.6M/471M [00:00<00:07, 64.3MB/s]
+[2022-12-28T05:04:43.118+0000] {logging_mixin.py:117} WARNING - Downloading:   4%|4         | 19.5M/471M [00:00<00:06, 66.3MB/s]
+[2022-12-28T05:04:43.231+0000] {logging_mixin.py:117} WARNING - Downloading:   6%|5         | 26.1M/471M [00:00<00:07, 63.0MB/s]
+[2022-12-28T05:04:43.331+0000] {logging_mixin.py:117} WARNING - Downloading:   7%|7         | 33.2M/471M [00:00<00:06, 65.8MB/s]
+[2022-12-28T05:04:43.431+0000] {logging_mixin.py:117} WARNING - Downloading:   9%|8         | 40.4M/471M [00:00<00:06, 67.8MB/s]
+[2022-12-28T05:04:43.539+0000] {logging_mixin.py:117} WARNING - Downloading:  10%|#         | 47.2M/471M [00:00<00:06, 66.1MB/s]
+[2022-12-28T05:04:43.657+0000] {logging_mixin.py:117} WARNING - Downloading:  11%|#1        | 53.9M/471M [00:00<00:06, 62.8MB/s]
+[2022-12-28T05:04:43.757+0000] {logging_mixin.py:117} WARNING - Downloading:  13%|#2        | 60.4M/471M [00:00<00:06, 63.5MB/s]
+[2022-12-28T05:04:43.857+0000] {logging_mixin.py:117} WARNING - Downloading:  14%|#4        | 67.3M/471M [00:01<00:06, 65.1MB/s]
+[2022-12-28T05:04:43.960+0000] {logging_mixin.py:117} WARNING - Downloading:  16%|#5        | 73.8M/471M [00:01<00:06, 64.6MB/s]
+[2022-12-28T05:04:44.060+0000] {logging_mixin.py:117} WARNING - Downloading:  17%|#7        | 80.3M/471M [00:01<00:06, 64.6MB/s]
+[2022-12-28T05:04:44.167+0000] {logging_mixin.py:117} WARNING - Downloading:  18%|#8        | 86.8M/471M [00:01<00:06, 63.5MB/s]
+[2022-12-28T05:04:44.271+0000] {logging_mixin.py:117} WARNING - Downloading:  20%|#9        | 93.2M/471M [00:01<00:06, 62.7MB/s]
+[2022-12-28T05:04:44.371+0000] {logging_mixin.py:117} WARNING - Downloading:  21%|##1       | 99.9M/471M [00:01<00:05, 64.2MB/s]
+[2022-12-28T05:04:44.471+0000] {logging_mixin.py:117} WARNING - Downloading:  23%|##2       | 107M/471M [00:01<00:05, 65.5MB/s] 
+[2022-12-28T05:04:44.589+0000] {logging_mixin.py:117} WARNING - Downloading:  24%|##4       | 113M/471M [00:01<00:05, 62.3MB/s]
+[2022-12-28T05:04:44.699+0000] {logging_mixin.py:117} WARNING - Downloading:  25%|##5       | 120M/471M [00:01<00:05, 60.6MB/s]
+[2022-12-28T05:04:44.804+0000] {logging_mixin.py:117} WARNING - Downloading:  27%|##6       | 126M/471M [00:01<00:05, 59.8MB/s]
+[2022-12-28T05:04:44.906+0000] {logging_mixin.py:117} WARNING - Downloading:  28%|##7       | 132M/471M [00:02<00:05, 59.5MB/s]
+[2022-12-28T05:04:45.010+0000] {logging_mixin.py:117} WARNING - Downloading:  29%|##9       | 138M/471M [00:02<00:05, 59.0MB/s]
+[2022-12-28T05:04:45.145+0000] {logging_mixin.py:117} WARNING - Downloading:  31%|###       | 144M/471M [00:02<00:06, 53.5MB/s]
+[2022-12-28T05:04:45.250+0000] {logging_mixin.py:117} WARNING - Downloading:  32%|###1      | 149M/471M [00:02<00:06, 53.0MB/s]
+[2022-12-28T05:04:45.350+0000] {logging_mixin.py:117} WARNING - Downloading:  33%|###2      | 154M/471M [00:02<00:05, 53.4MB/s]
+[2022-12-28T05:04:45.450+0000] {logging_mixin.py:117} WARNING - Downloading:  34%|###3      | 160M/471M [00:02<00:05, 53.9MB/s]
+[2022-12-28T05:04:45.550+0000] {logging_mixin.py:117} WARNING - Downloading:  35%|###5      | 166M/471M [00:02<00:05, 54.4MB/s]
+[2022-12-28T05:04:45.651+0000] {logging_mixin.py:117} WARNING - Downloading:  36%|###6      | 171M/471M [00:02<00:05, 54.4MB/s]
+[2022-12-28T05:04:45.751+0000] {logging_mixin.py:117} WARNING - Downloading:  38%|###7      | 177M/471M [00:02<00:05, 55.4MB/s]
+[2022-12-28T05:04:45.851+0000] {logging_mixin.py:117} WARNING - Downloading:  39%|###8      | 183M/471M [00:03<00:05, 56.7MB/s]
+[2022-12-28T05:04:45.951+0000] {logging_mixin.py:117} WARNING - Downloading:  40%|####      | 189M/471M [00:03<00:04, 58.9MB/s]
+[2022-12-28T05:04:46.051+0000] {logging_mixin.py:117} WARNING - Downloading:  41%|####1     | 195M/471M [00:03<00:04, 59.2MB/s]
+[2022-12-28T05:04:46.151+0000] {logging_mixin.py:117} WARNING - Downloading:  43%|####2     | 201M/471M [00:03<00:04, 59.3MB/s]
+[2022-12-28T05:04:46.283+0000] {logging_mixin.py:117} WARNING - Downloading:  44%|####3     | 207M/471M [00:03<00:04, 54.1MB/s]
+[2022-12-28T05:04:46.398+0000] {logging_mixin.py:117} WARNING - Downloading:  45%|####5     | 213M/471M [00:03<00:04, 52.2MB/s]
+[2022-12-28T05:04:46.520+0000] {logging_mixin.py:117} WARNING - Downloading:  46%|####6     | 218M/471M [00:03<00:05, 49.3MB/s]
+[2022-12-28T05:04:46.648+0000] {logging_mixin.py:117} WARNING - Downloading:  47%|####7     | 223M/471M [00:03<00:05, 46.0MB/s]
+[2022-12-28T05:04:46.770+0000] {logging_mixin.py:117} WARNING - Downloading:  48%|####8     | 228M/471M [00:03<00:05, 43.7MB/s]
+[2022-12-28T05:04:46.870+0000] {logging_mixin.py:117} WARNING - Downloading:  49%|####9     | 232M/471M [00:04<00:05, 44.3MB/s]
+[2022-12-28T05:04:46.970+0000] {logging_mixin.py:117} WARNING - Downloading:  50%|#####     | 237M/471M [00:04<00:05, 45.1MB/s]
+[2022-12-28T05:04:47.070+0000] {logging_mixin.py:117} WARNING - Downloading:  51%|#####1    | 242M/471M [00:04<00:04, 46.0MB/s]
+[2022-12-28T05:04:47.172+0000] {logging_mixin.py:117} WARNING - Downloading:  52%|#####2    | 246M/471M [00:04<00:04, 45.9MB/s]
+[2022-12-28T05:04:47.300+0000] {logging_mixin.py:117} WARNING - Downloading:  53%|#####3    | 251M/471M [00:04<00:05, 42.6MB/s]
+[2022-12-28T05:04:47.400+0000] {logging_mixin.py:117} WARNING - Downloading:  54%|#####4    | 256M/471M [00:04<00:04, 43.4MB/s]
+[2022-12-28T05:04:47.500+0000] {logging_mixin.py:117} WARNING - Downloading:  55%|#####5    | 260M/471M [00:04<00:04, 44.8MB/s]
+[2022-12-28T05:04:47.600+0000] {logging_mixin.py:117} WARNING - Downloading:  56%|#####6    | 265M/471M [00:04<00:04, 46.0MB/s]
+[2022-12-28T05:04:47.700+0000] {logging_mixin.py:117} WARNING - Downloading:  57%|#####7    | 270M/471M [00:04<00:04, 46.5MB/s]
+[2022-12-28T05:04:47.800+0000] {logging_mixin.py:117} WARNING - Downloading:  58%|#####8    | 275M/471M [00:04<00:04, 47.5MB/s]
+[2022-12-28T05:04:47.900+0000] {logging_mixin.py:117} WARNING - Downloading:  59%|#####9    | 280M/471M [00:05<00:03, 48.0MB/s]
+[2022-12-28T05:04:48.006+0000] {logging_mixin.py:117} WARNING - Downloading:  60%|######    | 285M/471M [00:05<00:03, 47.1MB/s]
+[2022-12-28T05:04:48.106+0000] {logging_mixin.py:117} WARNING - Downloading:  62%|######1   | 290M/471M [00:05<00:03, 47.4MB/s]
+[2022-12-28T05:04:48.206+0000] {logging_mixin.py:117} WARNING - Downloading:  63%|######2   | 294M/471M [00:05<00:03, 47.8MB/s]
+[2022-12-28T05:04:48.306+0000] {logging_mixin.py:117} WARNING - Downloading:  64%|######3   | 300M/471M [00:05<00:03, 50.5MB/s]
+[2022-12-28T05:04:48.406+0000] {logging_mixin.py:117} WARNING - Downloading:  65%|######5   | 307M/471M [00:05<00:02, 55.8MB/s]
+[2022-12-28T05:04:48.506+0000] {logging_mixin.py:117} WARNING - Downloading:  67%|######6   | 314M/471M [00:05<00:02, 58.8MB/s]
+[2022-12-28T05:04:48.606+0000] {logging_mixin.py:117} WARNING - Downloading:  68%|######7   | 320M/471M [00:05<00:02, 59.4MB/s]
+[2022-12-28T05:04:48.707+0000] {logging_mixin.py:117} WARNING - Downloading:  69%|######9   | 326M/471M [00:05<00:02, 59.3MB/s]
+[2022-12-28T05:04:48.811+0000] {logging_mixin.py:117} WARNING - Downloading:  70%|#######   | 331M/471M [00:05<00:02, 58.7MB/s]
+[2022-12-28T05:04:48.911+0000] {logging_mixin.py:117} WARNING - Downloading:  72%|#######1  | 338M/471M [00:06<00:02, 59.4MB/s]
+[2022-12-28T05:04:49.014+0000] {logging_mixin.py:117} WARNING - Downloading:  73%|#######2  | 344M/471M [00:06<00:02, 58.9MB/s]
+[2022-12-28T05:04:49.114+0000] {logging_mixin.py:117} WARNING - Downloading:  74%|#######4  | 350M/471M [00:06<00:02, 59.6MB/s]
+[2022-12-28T05:04:49.225+0000] {logging_mixin.py:117} WARNING - Downloading:  76%|#######5  | 356M/471M [00:06<00:01, 57.6MB/s]
+[2022-12-28T05:04:49.325+0000] {logging_mixin.py:117} WARNING - Downloading:  77%|#######6  | 362M/471M [00:06<00:01, 58.5MB/s]
+[2022-12-28T05:04:49.425+0000] {logging_mixin.py:117} WARNING - Downloading:  78%|#######8  | 368M/471M [00:06<00:01, 59.6MB/s]
+[2022-12-28T05:04:49.525+0000] {logging_mixin.py:117} WARNING - Downloading:  79%|#######9  | 374M/471M [00:06<00:01, 60.5MB/s]
+[2022-12-28T05:04:49.625+0000] {logging_mixin.py:117} WARNING - Downloading:  81%|########  | 381M/471M [00:06<00:01, 61.4MB/s]
+[2022-12-28T05:04:49.725+0000] {logging_mixin.py:117} WARNING - Downloading:  82%|########2 | 387M/471M [00:06<00:01, 62.4MB/s]
+[2022-12-28T05:04:49.825+0000] {logging_mixin.py:117} WARNING - Downloading:  84%|########3 | 394M/471M [00:07<00:01, 63.2MB/s]
+[2022-12-28T05:04:49.925+0000] {logging_mixin.py:117} WARNING - Downloading:  85%|########4 | 400M/471M [00:07<00:01, 63.8MB/s]
+[2022-12-28T05:04:50.025+0000] {logging_mixin.py:117} WARNING - Downloading:  86%|########6 | 406M/471M [00:07<00:01, 63.8MB/s]
+[2022-12-28T05:04:50.144+0000] {logging_mixin.py:117} WARNING - Downloading:  88%|########7 | 413M/471M [00:07<00:00, 60.4MB/s]
+[2022-12-28T05:04:50.256+0000] {logging_mixin.py:117} WARNING - Downloading:  89%|########8 | 419M/471M [00:07<00:00, 58.5MB/s]
+[2022-12-28T05:04:50.356+0000] {logging_mixin.py:117} WARNING - Downloading:  90%|######### | 425M/471M [00:07<00:00, 58.8MB/s]
+[2022-12-28T05:04:50.456+0000] {logging_mixin.py:117} WARNING - Downloading:  92%|#########1| 431M/471M [00:07<00:00, 61.0MB/s]
+[2022-12-28T05:04:50.556+0000] {logging_mixin.py:117} WARNING - Downloading:  93%|#########3| 438M/471M [00:07<00:00, 61.8MB/s]
+[2022-12-28T05:04:50.661+0000] {logging_mixin.py:117} WARNING - Downloading:  94%|#########4| 444M/471M [00:07<00:00, 60.9MB/s]
+[2022-12-28T05:04:50.761+0000] {logging_mixin.py:117} WARNING - Downloading:  96%|#########5| 451M/471M [00:07<00:00, 62.9MB/s]
+[2022-12-28T05:04:50.863+0000] {logging_mixin.py:117} WARNING - Downloading:  97%|#########7| 457M/471M [00:08<00:00, 62.7MB/s]
+[2022-12-28T05:04:50.963+0000] {logging_mixin.py:117} WARNING - Downloading:  98%|#########8| 463M/471M [00:08<00:00, 62.8MB/s]
+[2022-12-28T05:04:51.067+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|#########9| 470M/471M [00:08<00:00, 62.1MB/s]
+[2022-12-28T05:04:51.083+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 471M/471M [00:08<00:00, 57.0MB/s]
+[2022-12-28T05:04:52.660+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/53.0 [00:00<?, ?B/s]
+[2022-12-28T05:04:52.664+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 53.0/53.0 [00:00<00:00, 21.8kB/s]
+[2022-12-28T05:04:53.469+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/5.07M [00:00<?, ?B/s]
+[2022-12-28T05:04:53.570+0000] {logging_mixin.py:117} WARNING - Downloading:  84%|########4 | 4.26M/5.07M [00:00<00:00, 42.6MB/s]
+[2022-12-28T05:04:53.588+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 5.07M/5.07M [00:00<00:00, 43.0MB/s]
+[2022-12-28T05:04:55.221+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/239 [00:00<?, ?B/s]
+[2022-12-28T05:04:55.228+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 239/239 [00:00<00:00, 60.3kB/s]
+[2022-12-28T05:04:56.080+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/9.08M [00:00<?, ?B/s]
+[2022-12-28T05:04:56.181+0000] {logging_mixin.py:117} WARNING - Downloading:  56%|#####6    | 5.12M/9.08M [00:00<00:00, 51.2MB/s]
+[2022-12-28T05:04:56.267+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 9.08M/9.08M [00:00<00:00, 49.0MB/s]
+[2022-12-28T05:04:57.926+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/480 [00:00<?, ?B/s]
+[2022-12-28T05:04:57.928+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 480/480 [00:00<00:00, 332kB/s]
+[2022-12-28T05:04:58.762+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/14.8M [00:00<?, ?B/s]
+[2022-12-28T05:04:58.862+0000] {logging_mixin.py:117} WARNING - Downloading:  36%|###5      | 5.27M/14.8M [00:00<00:00, 52.7MB/s]
+[2022-12-28T05:04:58.965+0000] {logging_mixin.py:117} WARNING - Downloading:  71%|#######1  | 10.5M/14.8M [00:00<00:00, 51.8MB/s]
+[2022-12-28T05:04:59.049+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 14.8M/14.8M [00:00<00:00, 51.6MB/s]
+[2022-12-28T05:05:00.611+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/229 [00:00<?, ?B/s]
+[2022-12-28T05:05:00.615+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 229/229 [00:00<00:00, 88.0kB/s]
+[2022-12-28T05:05:03.858+0000] {SentenceTransformer.py:105} INFO - Use pytorch device: cuda
+[2022-12-28T05:10:36.647+0000] {logging_mixin.py:117} INFO - the BERTopic took 363.57075667381287 seconds
+[2022-12-28T05:11:06.938+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+
+[2022-12-28T05:11:16.804+0000] {picklable.py:126} INFO - Using the default model signature for pickable model ({'__call__': ModelSignature(batchable=False, batch_dim=(0, 0), input_spec=None, output_spec=None)}) for model "bertopic_autopik_model".
+[2022-12-28T05:11:21.591+0000] {model.py:207} INFO - Successfully saved Model(tag="bertopic_autopik_model:b2qcxjugn2azcasc")
+[2022-12-28T05:11:21.992+0000] {logging_mixin.py:117} INFO - Model saved: Model(tag="bertopic_autopik_model:b2qcxjugn2azcasc")
+[2022-12-28T05:11:22.312+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-28T05:11:22.330+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=bertopic_autopik_***, task_id=train_bertopic, execution_date=20221228T020000, start_date=20221228T050418, end_date=20221228T051122
+[2022-12-28T05:11:23.455+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-28T05:11:23.500+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-28T05:38:39.105+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:38:39.130+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [queued]>
+[2022-12-28T05:38:39.131+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:38:39.131+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-12-28T05:38:39.131+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-28T05:38:39.165+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): train_bertopic> on 2022-12-28 02:00:00+00:00
+[2022-12-28T05:38:39.174+0000] {standard_task_runner.py:54} INFO - Started process 146 to run task
+[2022-12-28T05:38:39.179+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bertopic_autopik_***', 'train_bertopic', 'scheduled__2022-12-28T02:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/bertopic_autopik_***.py', '--cfg-path', '/tmp/tmpdsl2vnwm']
+[2022-12-28T05:38:39.180+0000] {standard_task_runner.py:83} INFO - Job 5: Subtask train_bertopic
+[2022-12-28T05:38:39.182+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/bertopic_autopik_***.py
+[2022-12-28T05:38:50.719+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-12-28T05:38:50.775+0000] {task_command.py:384} INFO - Running <TaskInstance: bertopic_autopik_airflow.train_bertopic scheduled__2022-12-28T02:00:00+00:00 [running]> on host 01844bb5aa3c
+[2022-12-28T05:38:50.852+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=hojun.seo@pikurate.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bertopic_autopik_***
+AIRFLOW_CTX_TASK_ID=train_bertopic
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T02:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T02:00:00+00:00
+[2022-12-28T05:38:54.961+0000] {SentenceTransformer.py:66} INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+[2022-12-28T05:38:57.332+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/968 [00:00<?, ?B/s]
+[2022-12-28T05:38:57.336+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 968/968 [00:00<00:00, 484kB/s]
+[2022-12-28T05:38:58.926+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/190 [00:00<?, ?B/s]
+[2022-12-28T05:38:58.929+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 190/190 [00:00<00:00, 103kB/s]
+[2022-12-28T05:39:00.524+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/3.79k [00:00<?, ?B/s]
+[2022-12-28T05:39:00.528+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 3.79k/3.79k [00:00<00:00, 1.68MB/s]
+[2022-12-28T05:39:02.056+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/645 [00:00<?, ?B/s]
+[2022-12-28T05:39:02.061+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 645/645 [00:00<00:00, 274kB/s]
+[2022-12-28T05:39:03.658+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/122 [00:00<?, ?B/s]
+[2022-12-28T05:39:03.663+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 122/122 [00:00<00:00, 49.1kB/s]
+[2022-12-28T05:39:05.335+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/471M [00:00<?, ?B/s]
+[2022-12-28T05:39:05.436+0000] {logging_mixin.py:117} WARNING - Downloading:   1%|          | 3.10M/471M [00:00<00:15, 31.0MB/s]
+[2022-12-28T05:39:05.536+0000] {logging_mixin.py:117} WARNING - Downloading:   1%|1         | 6.47M/471M [00:00<00:14, 32.6MB/s]
+[2022-12-28T05:39:05.638+0000] {logging_mixin.py:117} WARNING - Downloading:   2%|2         | 9.72M/471M [00:00<00:14, 32.2MB/s]
+[2022-12-28T05:39:05.753+0000] {logging_mixin.py:117} WARNING - Downloading:   3%|2         | 12.9M/471M [00:00<00:15, 30.5MB/s]
+[2022-12-28T05:39:05.853+0000] {logging_mixin.py:117} WARNING - Downloading:   3%|3         | 16.0M/471M [00:00<00:14, 30.6MB/s]
+[2022-12-28T05:39:05.958+0000] {logging_mixin.py:117} WARNING - Downloading:   4%|4         | 19.1M/471M [00:00<00:15, 30.1MB/s]
+[2022-12-28T05:39:06.063+0000] {logging_mixin.py:117} WARNING - Downloading:   5%|4         | 22.1M/471M [00:00<00:15, 29.6MB/s]
+[2022-12-28T05:39:06.164+0000] {logging_mixin.py:117} WARNING - Downloading:   5%|5         | 25.1M/471M [00:00<00:15, 29.6MB/s]
+[2022-12-28T05:39:06.264+0000] {logging_mixin.py:117} WARNING - Downloading:   6%|5         | 28.0M/471M [00:00<00:14, 29.6MB/s]
+[2022-12-28T05:39:06.364+0000] {logging_mixin.py:117} WARNING - Downloading:   7%|6         | 31.7M/471M [00:01<00:13, 31.8MB/s]
+[2022-12-28T05:39:06.464+0000] {logging_mixin.py:117} WARNING - Downloading:   7%|7         | 35.2M/471M [00:01<00:13, 32.6MB/s]
+[2022-12-28T05:39:06.574+0000] {logging_mixin.py:117} WARNING - Downloading:   8%|8         | 38.4M/471M [00:01<00:13, 31.7MB/s]
+[2022-12-28T05:39:06.686+0000] {logging_mixin.py:117} WARNING - Downloading:   9%|8         | 41.6M/471M [00:01<00:14, 30.6MB/s]
+[2022-12-28T05:39:06.794+0000] {logging_mixin.py:117} WARNING - Downloading:   9%|9         | 44.7M/471M [00:01<00:14, 30.0MB/s]
+[2022-12-28T05:39:06.904+0000] {logging_mixin.py:117} WARNING - Downloading:  10%|#         | 47.7M/471M [00:01<00:14, 29.2MB/s]
+[2022-12-28T05:39:07.004+0000] {logging_mixin.py:117} WARNING - Downloading:  11%|#         | 50.6M/471M [00:01<00:14, 29.3MB/s]
+[2022-12-28T05:39:07.104+0000] {logging_mixin.py:117} WARNING - Downloading:  11%|#1        | 53.7M/471M [00:01<00:14, 29.7MB/s]
+[2022-12-28T05:39:07.224+0000] {logging_mixin.py:117} WARNING - Downloading:  12%|#2        | 56.7M/471M [00:01<00:14, 28.0MB/s]
+[2022-12-28T05:39:07.323+0000] {logging_mixin.py:117} WARNING - Downloading:  13%|#2        | 60.9M/471M [00:01<00:12, 32.1MB/s]
+[2022-12-28T05:39:07.427+0000] {logging_mixin.py:117} WARNING - Downloading:  14%|#4        | 66.3M/471M [00:02<00:10, 37.9MB/s]
+[2022-12-28T05:39:07.543+0000] {logging_mixin.py:117} WARNING - Downloading:  15%|#4        | 70.1M/471M [00:02<00:11, 36.3MB/s]
+[2022-12-28T05:39:07.643+0000] {logging_mixin.py:117} WARNING - Downloading:  16%|#6        | 75.9M/471M [00:02<00:09, 42.4MB/s]
+[2022-12-28T05:39:07.743+0000] {logging_mixin.py:117} WARNING - Downloading:  17%|#7        | 81.2M/471M [00:02<00:08, 45.6MB/s]
+[2022-12-28T05:39:07.843+0000] {logging_mixin.py:117} WARNING - Downloading:  19%|#8        | 87.3M/471M [00:02<00:07, 50.1MB/s]
+[2022-12-28T05:39:07.943+0000] {logging_mixin.py:117} WARNING - Downloading:  20%|#9        | 93.1M/471M [00:02<00:07, 52.3MB/s]
+[2022-12-28T05:39:08.043+0000] {logging_mixin.py:117} WARNING - Downloading:  21%|##1       | 98.9M/471M [00:02<00:06, 53.9MB/s]
+[2022-12-28T05:39:08.173+0000] {logging_mixin.py:117} WARNING - Downloading:  22%|##2       | 104M/471M [00:02<00:07, 49.7MB/s] 
+[2022-12-28T05:39:08.273+0000] {logging_mixin.py:117} WARNING - Downloading:  23%|##3       | 110M/471M [00:02<00:06, 52.9MB/s]
+[2022-12-28T05:39:08.373+0000] {logging_mixin.py:117} WARNING - Downloading:  25%|##4       | 117M/471M [00:03<00:06, 55.7MB/s]
+[2022-12-28T05:39:08.473+0000] {logging_mixin.py:117} WARNING - Downloading:  26%|##6       | 123M/471M [00:03<00:06, 57.5MB/s]
+[2022-12-28T05:39:08.573+0000] {logging_mixin.py:117} WARNING - Downloading:  27%|##7       | 129M/471M [00:03<00:05, 58.7MB/s]
+[2022-12-28T05:39:08.673+0000] {logging_mixin.py:117} WARNING - Downloading:  29%|##8       | 135M/471M [00:03<00:05, 58.8MB/s]
+[2022-12-28T05:39:08.773+0000] {logging_mixin.py:117} WARNING - Downloading:  30%|###       | 141M/471M [00:03<00:05, 59.9MB/s]
+[2022-12-28T05:39:08.873+0000] {logging_mixin.py:117} WARNING - Downloading:  31%|###1      | 147M/471M [00:03<00:05, 60.6MB/s]
+[2022-12-28T05:39:08.973+0000] {logging_mixin.py:117} WARNING - Downloading:  33%|###2      | 154M/471M [00:03<00:05, 61.2MB/s]
+[2022-12-28T05:39:09.098+0000] {logging_mixin.py:117} WARNING - Downloading:  34%|###3      | 160M/471M [00:03<00:05, 57.1MB/s]
+[2022-12-28T05:39:09.214+0000] {logging_mixin.py:117} WARNING - Downloading:  35%|###5      | 166M/471M [00:03<00:05, 54.7MB/s]
+[2022-12-28T05:39:09.319+0000] {logging_mixin.py:117} WARNING - Downloading:  36%|###6      | 171M/471M [00:03<00:05, 54.1MB/s]
+[2022-12-28T05:39:09.419+0000] {logging_mixin.py:117} WARNING - Downloading:  38%|###7      | 177M/471M [00:04<00:05, 55.9MB/s]
+[2022-12-28T05:39:09.519+0000] {logging_mixin.py:117} WARNING - Downloading:  39%|###8      | 183M/471M [00:04<00:04, 57.7MB/s]
+[2022-12-28T05:39:09.619+0000] {logging_mixin.py:117} WARNING - Downloading:  40%|####      | 189M/471M [00:04<00:04, 58.2MB/s]
+[2022-12-28T05:39:09.719+0000] {logging_mixin.py:117} WARNING - Downloading:  42%|####1     | 196M/471M [00:04<00:04, 59.2MB/s]
+[2022-12-28T05:39:09.819+0000] {logging_mixin.py:117} WARNING - Downloading:  43%|####2     | 202M/471M [00:04<00:04, 59.8MB/s]
+[2022-12-28T05:39:09.922+0000] {logging_mixin.py:117} WARNING - Downloading:  44%|####4     | 208M/471M [00:04<00:04, 59.4MB/s]
+[2022-12-28T05:39:10.025+0000] {logging_mixin.py:117} WARNING - Downloading:  45%|####5     | 214M/471M [00:04<00:04, 58.8MB/s]
+[2022-12-28T05:39:10.178+0000] {logging_mixin.py:117} WARNING - Downloading:  47%|####6     | 219M/471M [00:04<00:04, 50.9MB/s]
+[2022-12-28T05:39:10.316+0000] {logging_mixin.py:117} WARNING - Downloading:  48%|####7     | 225M/471M [00:04<00:05, 46.6MB/s]
+[2022-12-28T05:39:10.488+0000] {logging_mixin.py:117} WARNING - Downloading:  49%|####8     | 230M/471M [00:05<00:06, 39.8MB/s]
+[2022-12-28T05:39:10.642+0000] {logging_mixin.py:117} WARNING - Downloading:  50%|####9     | 234M/471M [00:05<00:06, 35.8MB/s]
+[2022-12-28T05:39:10.767+0000] {logging_mixin.py:117} WARNING - Downloading:  50%|#####     | 238M/471M [00:05<00:06, 34.3MB/s]
+[2022-12-28T05:39:10.886+0000] {logging_mixin.py:117} WARNING - Downloading:  51%|#####1    | 241M/471M [00:05<00:06, 33.1MB/s]
+[2022-12-28T05:39:10.992+0000] {logging_mixin.py:117} WARNING - Downloading:  52%|#####1    | 245M/471M [00:05<00:06, 32.8MB/s]
+[2022-12-28T05:39:11.095+0000] {logging_mixin.py:117} WARNING - Downloading:  53%|#####2    | 248M/471M [00:05<00:06, 32.7MB/s]
+[2022-12-28T05:39:11.231+0000] {logging_mixin.py:117} WARNING - Downloading:  53%|#####3    | 251M/471M [00:05<00:07, 29.9MB/s]
+[2022-12-28T05:39:11.346+0000] {logging_mixin.py:117} WARNING - Downloading:  54%|#####4    | 254M/471M [00:06<00:07, 29.0MB/s]
+[2022-12-28T05:39:11.446+0000] {logging_mixin.py:117} WARNING - Downloading:  55%|#####4    | 258M/471M [00:06<00:06, 31.9MB/s]
+[2022-12-28T05:39:11.546+0000] {logging_mixin.py:117} WARNING - Downloading:  56%|#####5    | 262M/471M [00:06<00:06, 33.4MB/s]
+[2022-12-28T05:39:11.655+0000] {logging_mixin.py:117} WARNING - Downloading:  56%|#####6    | 265M/471M [00:06<00:06, 32.7MB/s]
+[2022-12-28T05:39:11.755+0000] {logging_mixin.py:117} WARNING - Downloading:  57%|#####7    | 269M/471M [00:06<00:05, 34.0MB/s]
+[2022-12-28T05:39:11.855+0000] {logging_mixin.py:117} WARNING - Downloading:  58%|#####8    | 273M/471M [00:06<00:05, 36.0MB/s]
+[2022-12-28T05:39:11.955+0000] {logging_mixin.py:117} WARNING - Downloading:  59%|#####9    | 278M/471M [00:06<00:05, 38.6MB/s]
+[2022-12-28T05:39:12.055+0000] {logging_mixin.py:117} WARNING - Downloading:  60%|#####9    | 282M/471M [00:06<00:04, 39.3MB/s]
+[2022-12-28T05:39:12.197+0000] {logging_mixin.py:117} WARNING - Downloading:  61%|######    | 286M/471M [00:06<00:05, 35.1MB/s]
+[2022-12-28T05:39:12.338+0000] {logging_mixin.py:117} WARNING - Downloading:  61%|######1   | 289M/471M [00:07<00:05, 31.7MB/s]
+[2022-12-28T05:39:12.453+0000] {logging_mixin.py:117} WARNING - Downloading:  62%|######2   | 293M/471M [00:07<00:05, 30.8MB/s]
+[2022-12-28T05:39:12.555+0000] {logging_mixin.py:117} WARNING - Downloading:  63%|######2   | 296M/471M [00:07<00:05, 30.9MB/s]
+[2022-12-28T05:39:12.672+0000] {logging_mixin.py:117} WARNING - Downloading:  64%|######3   | 299M/471M [00:07<00:05, 29.7MB/s]
+[2022-12-28T05:39:12.786+0000] {logging_mixin.py:117} WARNING - Downloading:  64%|######4   | 302M/471M [00:07<00:05, 28.7MB/s]
+[2022-12-28T05:39:12.900+0000] {logging_mixin.py:117} WARNING - Downloading:  65%|######4   | 305M/471M [00:07<00:05, 27.7MB/s]
+[2022-12-28T05:39:13.005+0000] {logging_mixin.py:117} WARNING - Downloading:  65%|######5   | 308M/471M [00:07<00:05, 27.4MB/s]
+[2022-12-28T05:39:13.105+0000] {logging_mixin.py:117} WARNING - Downloading:  66%|######5   | 311M/471M [00:07<00:05, 27.9MB/s]
+[2022-12-28T05:39:13.205+0000] {logging_mixin.py:117} WARNING - Downloading:  67%|######6   | 314M/471M [00:07<00:05, 29.7MB/s]
+[2022-12-28T05:39:13.305+0000] {logging_mixin.py:117} WARNING - Downloading:  67%|######7   | 318M/471M [00:07<00:04, 31.3MB/s]
+[2022-12-28T05:39:13.405+0000] {logging_mixin.py:117} WARNING - Downloading:  68%|######8   | 321M/471M [00:08<00:04, 33.2MB/s]
+[2022-12-28T05:39:13.505+0000] {logging_mixin.py:117} WARNING - Downloading:  69%|######9   | 325M/471M [00:08<00:04, 34.6MB/s]
+[2022-12-28T05:39:13.605+0000] {logging_mixin.py:117} WARNING - Downloading:  70%|######9   | 329M/471M [00:08<00:03, 37.2MB/s]
+[2022-12-28T05:39:13.705+0000] {logging_mixin.py:117} WARNING - Downloading:  71%|#######1  | 335M/471M [00:08<00:03, 41.5MB/s]
+[2022-12-28T05:39:13.805+0000] {logging_mixin.py:117} WARNING - Downloading:  72%|#######2  | 339M/471M [00:08<00:03, 42.8MB/s]
+[2022-12-28T05:39:13.943+0000] {logging_mixin.py:117} WARNING - Downloading:  73%|#######2  | 344M/471M [00:08<00:03, 38.5MB/s]
+[2022-12-28T05:39:14.103+0000] {logging_mixin.py:117} WARNING - Downloading:  74%|#######3  | 347M/471M [00:08<00:03, 33.2MB/s]
+[2022-12-28T05:39:14.210+0000] {logging_mixin.py:117} WARNING - Downloading:  75%|#######4  | 351M/471M [00:08<00:03, 33.1MB/s]
+[2022-12-28T05:39:14.332+0000] {logging_mixin.py:117} WARNING - Downloading:  75%|#######5  | 354M/471M [00:08<00:03, 31.7MB/s]
+[2022-12-28T05:39:14.436+0000] {logging_mixin.py:117} WARNING - Downloading:  76%|#######5  | 358M/471M [00:09<00:03, 31.5MB/s]
+[2022-12-28T05:39:14.549+0000] {logging_mixin.py:117} WARNING - Downloading:  77%|#######6  | 361M/471M [00:09<00:03, 30.5MB/s]
+[2022-12-28T05:39:14.676+0000] {logging_mixin.py:117} WARNING - Downloading:  77%|#######7  | 364M/471M [00:09<00:03, 28.6MB/s]
+[2022-12-28T05:39:14.793+0000] {logging_mixin.py:117} WARNING - Downloading:  78%|#######7  | 367M/471M [00:09<00:03, 27.5MB/s]
+[2022-12-28T05:39:14.899+0000] {logging_mixin.py:117} WARNING - Downloading:  79%|#######8  | 370M/471M [00:09<00:03, 27.1MB/s]
+[2022-12-28T05:39:14.999+0000] {logging_mixin.py:117} WARNING - Downloading:  79%|#######9  | 374M/471M [00:09<00:03, 31.0MB/s]
+[2022-12-28T05:39:15.099+0000] {logging_mixin.py:117} WARNING - Downloading:  80%|########  | 377M/471M [00:09<00:02, 32.1MB/s]
+[2022-12-28T05:39:15.199+0000] {logging_mixin.py:117} WARNING - Downloading:  81%|########  | 381M/471M [00:09<00:02, 33.4MB/s]
+[2022-12-28T05:39:15.300+0000] {logging_mixin.py:117} WARNING - Downloading:  82%|########1 | 384M/471M [00:09<00:02, 33.9MB/s]
+[2022-12-28T05:39:15.399+0000] {logging_mixin.py:117} WARNING - Downloading:  83%|########2 | 388M/471M [00:10<00:02, 35.8MB/s]
+[2022-12-28T05:39:15.522+0000] {logging_mixin.py:117} WARNING - Downloading:  83%|########3 | 392M/471M [00:10<00:02, 33.6MB/s]
+[2022-12-28T05:39:15.627+0000] {logging_mixin.py:117} WARNING - Downloading:  84%|########4 | 395M/471M [00:10<00:02, 33.2MB/s]
+[2022-12-28T05:39:15.750+0000] {logging_mixin.py:117} WARNING - Downloading:  85%|########4 | 399M/471M [00:10<00:02, 31.4MB/s]
+[2022-12-28T05:39:15.873+0000] {logging_mixin.py:117} WARNING - Downloading:  85%|########5 | 402M/471M [00:10<00:02, 29.5MB/s]
+[2022-12-28T05:39:16.000+0000] {logging_mixin.py:117} WARNING - Downloading:  86%|########6 | 405M/471M [00:10<00:02, 27.6MB/s]
+[2022-12-28T05:39:16.115+0000] {logging_mixin.py:117} WARNING - Downloading:  87%|########6 | 408M/471M [00:10<00:02, 26.6MB/s]
+[2022-12-28T05:39:16.217+0000] {logging_mixin.py:117} WARNING - Downloading:  87%|########7 | 410M/471M [00:10<00:02, 26.6MB/s]
+[2022-12-28T05:39:16.325+0000] {logging_mixin.py:117} WARNING - Downloading:  88%|########7 | 413M/471M [00:10<00:02, 26.1MB/s]
+[2022-12-28T05:39:16.434+0000] {logging_mixin.py:117} WARNING - Downloading:  88%|########8 | 416M/471M [00:11<00:02, 25.4MB/s]
+[2022-12-28T05:39:16.537+0000] {logging_mixin.py:117} WARNING - Downloading:  89%|########8 | 418M/471M [00:11<00:02, 25.2MB/s]
+[2022-12-28T05:39:16.639+0000] {logging_mixin.py:117} WARNING - Downloading:  89%|########9 | 421M/471M [00:11<00:01, 25.1MB/s]
+[2022-12-28T05:39:16.743+0000] {logging_mixin.py:117} WARNING - Downloading:  90%|########9 | 423M/471M [00:11<00:01, 24.9MB/s]
+[2022-12-28T05:39:16.848+0000] {logging_mixin.py:117} WARNING - Downloading:  90%|######### | 426M/471M [00:11<00:01, 24.5MB/s]
+[2022-12-28T05:39:16.951+0000] {logging_mixin.py:117} WARNING - Downloading:  91%|######### | 428M/471M [00:11<00:01, 24.3MB/s]
+[2022-12-28T05:39:17.051+0000] {logging_mixin.py:117} WARNING - Downloading:  92%|#########1| 431M/471M [00:11<00:01, 24.3MB/s]
+[2022-12-28T05:39:17.151+0000] {logging_mixin.py:117} WARNING - Downloading:  92%|#########2| 433M/471M [00:11<00:01, 24.5MB/s]
+[2022-12-28T05:39:17.256+0000] {logging_mixin.py:117} WARNING - Downloading:  93%|#########2| 436M/471M [00:11<00:01, 24.2MB/s]
+[2022-12-28T05:39:17.361+0000] {logging_mixin.py:117} WARNING - Downloading:  93%|#########3| 438M/471M [00:12<00:01, 23.8MB/s]
+[2022-12-28T05:39:17.461+0000] {logging_mixin.py:117} WARNING - Downloading:  94%|#########3| 441M/471M [00:12<00:01, 24.6MB/s]
+[2022-12-28T05:39:17.561+0000] {logging_mixin.py:117} WARNING - Downloading:  94%|#########4| 444M/471M [00:12<00:01, 25.5MB/s]
+[2022-12-28T05:39:17.666+0000] {logging_mixin.py:117} WARNING - Downloading:  95%|#########4| 446M/471M [00:12<00:00, 25.2MB/s]
+[2022-12-28T05:39:17.766+0000] {logging_mixin.py:117} WARNING - Downloading:  95%|#########5| 449M/471M [00:12<00:00, 25.8MB/s]
+[2022-12-28T05:39:17.866+0000] {logging_mixin.py:117} WARNING - Downloading:  96%|#########5| 452M/471M [00:12<00:00, 27.0MB/s]
+[2022-12-28T05:39:17.966+0000] {logging_mixin.py:117} WARNING - Downloading:  97%|#########6| 456M/471M [00:12<00:00, 30.8MB/s]
+[2022-12-28T05:39:18.066+0000] {logging_mixin.py:117} WARNING - Downloading:  98%|#########7| 459M/471M [00:12<00:00, 31.6MB/s]
+[2022-12-28T05:39:18.166+0000] {logging_mixin.py:117} WARNING - Downloading:  98%|#########8| 463M/471M [00:12<00:00, 34.1MB/s]
+[2022-12-28T05:39:18.266+0000] {logging_mixin.py:117} WARNING - Downloading:  99%|#########9| 467M/471M [00:12<00:00, 34.6MB/s]
+[2022-12-28T05:39:18.366+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|#########9| 470M/471M [00:13<00:00, 34.7MB/s]
+[2022-12-28T05:39:18.381+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 471M/471M [00:13<00:00, 36.1MB/s]
+[2022-12-28T05:39:19.996+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/53.0 [00:00<?, ?B/s]
+[2022-12-28T05:39:19.999+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 53.0/53.0 [00:00<00:00, 36.4kB/s]
+[2022-12-28T05:39:20.824+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/5.07M [00:00<?, ?B/s]
+[2022-12-28T05:39:20.925+0000] {logging_mixin.py:117} WARNING - Downloading:  45%|####4     | 2.26M/5.07M [00:00<00:00, 22.6MB/s]
+[2022-12-28T05:39:21.025+0000] {logging_mixin.py:117} WARNING - Downloading:  98%|#########8| 4.98M/5.07M [00:00<00:00, 25.3MB/s]
+[2022-12-28T05:39:21.037+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 5.07M/5.07M [00:00<00:00, 24.2MB/s]
+[2022-12-28T05:39:22.594+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/239 [00:00<?, ?B/s]
+[2022-12-28T05:39:22.604+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 239/239 [00:00<00:00, 37.9kB/s]
+[2022-12-28T05:39:24.205+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/9.08M [00:00<?, ?B/s]
+[2022-12-28T05:39:24.307+0000] {logging_mixin.py:117} WARNING - Downloading:  14%|#3        | 1.24M/9.08M [00:00<00:00, 12.4MB/s]
+[2022-12-28T05:39:24.409+0000] {logging_mixin.py:117} WARNING - Downloading:  27%|##7       | 2.48M/9.08M [00:00<00:00, 12.2MB/s]
+[2022-12-28T05:39:24.509+0000] {logging_mixin.py:117} WARNING - Downloading:  55%|#####5    | 5.03M/9.08M [00:00<00:00, 18.2MB/s]
+[2022-12-28T05:39:24.609+0000] {logging_mixin.py:117} WARNING - Downloading:  81%|########1 | 7.37M/9.08M [00:00<00:00, 20.3MB/s]
+[2022-12-28T05:39:24.672+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 9.08M/9.08M [00:00<00:00, 19.5MB/s]
+[2022-12-28T05:39:26.232+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/480 [00:00<?, ?B/s]
+[2022-12-28T05:39:26.239+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 480/480 [00:00<00:00, 123kB/s]
+[2022-12-28T05:39:27.114+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/14.8M [00:00<?, ?B/s]
+[2022-12-28T05:39:27.215+0000] {logging_mixin.py:117} WARNING - Downloading:  15%|#5        | 2.24M/14.8M [00:00<00:00, 22.4MB/s]
+[2022-12-28T05:39:27.315+0000] {logging_mixin.py:117} WARNING - Downloading:  31%|###1      | 4.61M/14.8M [00:00<00:00, 23.2MB/s]
+[2022-12-28T05:39:27.415+0000] {logging_mixin.py:117} WARNING - Downloading:  47%|####6     | 6.93M/14.8M [00:00<00:00, 23.2MB/s]
+[2022-12-28T05:39:27.515+0000] {logging_mixin.py:117} WARNING - Downloading:  63%|######3   | 9.33M/14.8M [00:00<00:00, 23.5MB/s]
+[2022-12-28T05:39:27.615+0000] {logging_mixin.py:117} WARNING - Downloading:  82%|########2 | 12.1M/14.8M [00:00<00:00, 25.2MB/s]
+[2022-12-28T05:39:27.680+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 14.8M/14.8M [00:00<00:00, 26.2MB/s]
+[2022-12-28T05:39:29.223+0000] {logging_mixin.py:117} WARNING - Downloading:   0%|          | 0.00/229 [00:00<?, ?B/s]
+[2022-12-28T05:39:29.230+0000] {logging_mixin.py:117} WARNING - Downloading: 100%|##########| 229/229 [00:00<00:00, 61.2kB/s]
+[2022-12-28T05:39:32.660+0000] {SentenceTransformer.py:105} INFO - Use pytorch device: cuda
+[2022-12-28T05:45:34.158+0000] {logging_mixin.py:117} INFO - the BERTopic took 399.25436758995056 seconds
+[2022-12-28T05:46:01.407+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/scipy/sparse/_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+
+[2022-12-28T05:46:11.633+0000] {picklable.py:126} INFO - Using the default model signature for pickable model ({'__call__': ModelSignature(batchable=False, batch_dim=(0, 0), input_spec=None, output_spec=None)}) for model "bertopic_autopik_model".
+[2022-12-28T05:46:16.186+0000] {model.py:207} INFO - Successfully saved Model(tag="bertopic_autopik_model:547oyiegokczqasc")
+[2022-12-28T05:46:16.613+0000] {logging_mixin.py:117} INFO - Model saved: Model(tag="bertopic_autopik_model:547oyiegokczqasc")
+[2022-12-28T05:46:17.035+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-28T05:46:17.048+0000] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=bertopic_autopik_***, task_id=train_bertopic, execution_date=20221228T020000, start_date=20221228T053839, end_date=20221228T054617
+[2022-12-28T05:46:17.930+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-12-28T05:46:17.964+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
